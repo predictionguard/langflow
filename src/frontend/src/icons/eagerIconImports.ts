@@ -79,6 +79,7 @@ import { OpenSearch } from "@/icons/OpenSearch";
 import { PerplexityIcon } from "@/icons/Perplexity";
 import { PineconeIcon } from "@/icons/Pinecone";
 import { PostgresIcon } from "@/icons/Postgres";
+import { PredictionGuardIcon } from "@/icons/PredictionGuard";
 import { PythonIcon } from "@/icons/Python";
 import { QDrantIcon } from "@/icons/QDrant";
 import { QianFanChatIcon } from "@/icons/QianFanChat";
@@ -192,6 +193,7 @@ export const eagerIconsMapping = {
   Perplexity: PerplexityIcon,
   Pinecone: PineconeIcon,
   Postgres: PostgresIcon,
+  PredictionGuard: PredictionGuardIcon,
   Python: PythonIcon,
   QDrant: QDrantIcon,
   QianFanChat: QianFanChatIcon,
