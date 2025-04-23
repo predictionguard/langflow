@@ -84,6 +84,7 @@ dependencies = [
     "langchain-google-vertexai==2.0.7",
     "langchain-groq==0.2.1",
     "langchain-pinecone==0.2.2",
+    "langchain-predictionguard>=0.2.0",
     "langchain-mistralai==0.2.3",
     "langchain-chroma==0.1.4",
     "langchain-aws==0.2.7",
@@ -123,6 +124,7 @@ dependencies = [
     "langchain-ibm>=0.3.8",
     "opik>=1.6.3",
     "openai>=1.68.2",
+    "predictionguard>=2.8.0",
 ]
 
 [dependency-groups]
