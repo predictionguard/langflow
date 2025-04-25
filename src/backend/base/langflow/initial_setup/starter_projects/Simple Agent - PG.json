@@ -26,9 +26,9 @@
         "id": "reactflow__edge-URL-l2YJJ{œdataTypeœ:œURLœ,œidœ:œURL-l2YJJœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-5DXrt{œfieldNameœ:œtoolsœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "URL-l2YJJ",
-        "sourceHandle": "{œdataTypeœ:œURLœ,œidœ:œURL-l2YJJœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "sourceHandle": "{œdataTypeœ: œURLœ, œidœ: œURL-l2YJJœ, œnameœ: œcomponent_as_toolœ, œoutput_typesœ: [œToolœ]}",
         "target": "Agent-5DXrt",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œtoolsœ, œidœ: œAgent-5DXrtœ, œinputTypesœ: [œToolœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -54,9 +54,9 @@
         "id": "reactflow__edge-CalculatorComponent-d5Plg{œdataTypeœ:œCalculatorComponentœ,œidœ:œCalculatorComponent-d5Plgœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-5DXrt{œfieldNameœ:œtoolsœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "CalculatorComponent-d5Plg",
-        "sourceHandle": "{œdataTypeœ:œCalculatorComponentœ,œidœ:œCalculatorComponent-d5Plgœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "sourceHandle": "{œdataTypeœ: œCalculatorComponentœ, œidœ: œCalculatorComponent-d5Plgœ, œnameœ: œcomponent_as_toolœ, œoutput_typesœ: [œToolœ]}",
         "target": "Agent-5DXrt",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œtoolsœ, œidœ: œAgent-5DXrtœ, œinputTypesœ: [œToolœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -82,9 +82,9 @@
         "id": "reactflow__edge-ChatInput-yNkga{œdataTypeœ:œChatInputœ,œidœ:œChatInput-yNkgaœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-5DXrt{œfieldNameœ:œinput_valueœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-yNkga",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-yNkgaœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-yNkgaœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Agent-5DXrt",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œAgent-5DXrtœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -112,9 +112,9 @@
         "id": "reactflow__edge-Agent-5DXrt{œdataTypeœ:œAgentœ,œidœ:œAgent-5DXrtœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-UyAPT{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-UyAPTœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "Agent-5DXrt",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-5DXrtœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œAgentœ, œidœ: œAgent-5DXrtœ, œnameœ: œresponseœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ChatOutput-UyAPT",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-UyAPTœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-UyAPTœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -140,9 +140,9 @@
         "id": "xy-edge__PredictionGuardModel-VQ8FT{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-VQ8FTœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-5DXrt{œfieldNameœ:œagent_llmœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "PredictionGuardModel-VQ8FT",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-VQ8FTœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-VQ8FTœ, œnameœ: œmodel_outputœ, œoutput_typesœ: [œLanguageModelœ]}",
         "target": "Agent-5DXrt",
-        "targetHandle": "{œfieldNameœ:œagent_llmœ,œidœ:œAgent-5DXrtœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œagent_llmœ, œidœ: œAgent-5DXrtœ, œinputTypesœ: [œLanguageModelœ], œtypeœ: œstrœ}"
       }
     ],
     "nodes": [

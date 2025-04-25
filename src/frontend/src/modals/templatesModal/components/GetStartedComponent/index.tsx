@@ -20,21 +20,21 @@ export default function GetStartedComponent() {
       bgHorizontalImage: memoryChatbotHorizontal,
       icon: "MessagesSquare",
       category: "prompting",
-      flow: examples.find((example) => example.name === "Basic Prompting"),
+      flow: examples.find((example) => example.name === "Basic Prompting - PG"),
     },
     {
       bgImage: vectorRag,
       bgHorizontalImage: vectorRagHorizontal,
       icon: "Database",
       category: "RAG",
-      flow: examples.find((example) => example.name === "Vector Store RAG"),
+      flow: examples.find((example) => example.name === "Vector Store RAG - PG"),
     },
     {
       bgImage: multiAgent,
       bgHorizontalImage: multiAgentHorizontal,
       icon: "Bot",
       category: "Agents",
-      flow: examples.find((example) => example.name === "Simple Agent"),
+      flow: examples.find((example) => example.name === "Simple Agent - PG"),
     },
   ];
 

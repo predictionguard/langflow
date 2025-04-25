@@ -26,9 +26,9 @@
         "id": "xy-edge__Prompt-DRAZ9{œdataTypeœ:œPromptœ,œidœ:œPrompt-DRAZ9œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-W5oM4{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-W5oM4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-DRAZ9",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-DRAZ9œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-DRAZ9œ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-W5oM4",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-W5oM4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-W5oM4œ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -56,9 +56,9 @@
         "id": "xy-edge__PredictionGuardModel-W5oM4{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-W5oM4œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-iLUOL{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-iLUOLœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "PredictionGuardModel-W5oM4",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-W5oM4œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-W5oM4œ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ChatOutput-iLUOL",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-iLUOLœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-iLUOLœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -84,9 +84,9 @@
         "id": "xy-edge__parser-AqwxL{œdataTypeœ:œparserœ,œidœ:œparser-AqwxLœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-DRAZ9{œfieldNameœ:œreferencesœ,œidœ:œPrompt-DRAZ9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "parser-AqwxL",
-        "sourceHandle": "{œdataTypeœ:œparserœ,œidœ:œparser-AqwxLœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œparserœ, œidœ: œparser-AqwxLœ, œnameœ: œparsed_textœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Prompt-DRAZ9",
-        "targetHandle": "{œfieldNameœ:œreferencesœ,œidœ:œPrompt-DRAZ9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œreferencesœ, œidœ: œPrompt-DRAZ9œ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -112,9 +112,9 @@
         "id": "xy-edge__TextInput-m6dEW{œdataTypeœ:œTextInputœ,œidœ:œTextInput-m6dEWœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-DRAZ9{œfieldNameœ:œinstructionsœ,œidœ:œPrompt-DRAZ9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "TextInput-m6dEW",
-        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-m6dEWœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œTextInputœ, œidœ: œTextInput-m6dEWœ, œnameœ: œtextœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Prompt-DRAZ9",
-        "targetHandle": "{œfieldNameœ:œinstructionsœ,œidœ:œPrompt-DRAZ9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinstructionsœ, œidœ: œPrompt-DRAZ9œ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -140,9 +140,9 @@
         "id": "xy-edge__ChatInput-bZn30{œdataTypeœ:œChatInputœ,œidœ:œChatInput-bZn30œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-DRAZ9{œfieldNameœ:œUserœ,œidœ:œPrompt-DRAZ9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-bZn30",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-bZn30œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-bZn30œ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Prompt-DRAZ9",
-        "targetHandle": "{œfieldNameœ:œUserœ,œidœ:œPrompt-DRAZ9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œUserœ, œidœ: œPrompt-DRAZ9œ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -169,9 +169,9 @@
         "id": "xy-edge__URL-6gmVe{œdataTypeœ:œURLœ,œidœ:œURL-6gmVeœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-parser-AqwxL{œfieldNameœ:œinput_dataœ,œidœ:œparser-AqwxLœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "URL-6gmVe",
-        "sourceHandle": "{œdataTypeœ:œURLœ,œidœ:œURL-6gmVeœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "sourceHandle": "{œdataTypeœ: œURLœ, œidœ: œURL-6gmVeœ, œnameœ: œdataframeœ, œoutput_typesœ: [œDataFrameœ]}",
         "target": "parser-AqwxL",
-        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œparser-AqwxLœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œinput_dataœ, œidœ: œparser-AqwxLœ, œinputTypesœ: [œDataFrameœ, œDataœ], œtypeœ: œotherœ}"
       }
     ],
     "nodes": [
@@ -218,11 +218,8 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
-                "options": null,
-                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
@@ -411,7 +408,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
-                "hidden": false,
                 "method": "text_response",
                 "name": "text",
                 "selected": "Message",

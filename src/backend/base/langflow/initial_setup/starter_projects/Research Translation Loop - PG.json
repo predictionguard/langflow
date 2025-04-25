@@ -26,9 +26,9 @@
         "id": "reactflow__edge-MessagetoData-tF3zV{œdataTypeœ:œMessagetoDataœ,œidœ:œMessagetoData-tF3zVœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-LoopComponent-fuUJJ{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-fuUJJœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}",
         "selected": false,
         "source": "MessagetoData-tF3zV",
-        "sourceHandle": "{œdataTypeœ:œMessagetoDataœ,œidœ:œMessagetoData-tF3zVœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "sourceHandle": "{œdataTypeœ: œMessagetoDataœ, œidœ: œMessagetoData-tF3zVœ, œnameœ: œdataœ, œoutput_typesœ: [œDataœ]}",
         "target": "LoopComponent-fuUJJ",
-        "targetHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-fuUJJœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}"
+        "targetHandle": "{œdataTypeœ: œLoopComponentœ, œidœ: œLoopComponent-fuUJJœ, œnameœ: œitemœ, œoutput_typesœ: [œDataœ]}"
       },
       {
         "animated": false,
@@ -54,9 +54,9 @@
         "id": "reactflow__edge-LoopComponent-fuUJJ{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-fuUJJœ,œnameœ:œdoneœ,œoutput_typesœ:[œDataœ]}-ParseData-o7AoD{œfieldNameœ:œdataœ,œidœ:œParseData-o7AoDœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "LoopComponent-fuUJJ",
-        "sourceHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-fuUJJœ,œnameœ:œdoneœ,œoutput_typesœ:[œDataœ]}",
+        "sourceHandle": "{œdataTypeœ: œLoopComponentœ, œidœ: œLoopComponent-fuUJJœ, œnameœ: œdoneœ, œoutput_typesœ: [œDataœ]}",
         "target": "ParseData-o7AoD",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-o7AoDœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œdataœ, œidœ: œParseData-o7AoDœ, œinputTypesœ: [œDataœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -84,9 +84,9 @@
         "id": "reactflow__edge-ParseData-o7AoD{œdataTypeœ:œParseDataœ,œidœ:œParseData-o7AoDœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-QiTmW{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-QiTmWœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ParseData-o7AoD",
-        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-o7AoDœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œParseDataœ, œidœ: œParseData-o7AoDœ, œnameœ: œtextœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ChatOutput-QiTmW",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-QiTmWœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-QiTmWœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -112,9 +112,9 @@
         "id": "reactflow__edge-ChatInput-32fBB{œdataTypeœ:œChatInputœ,œidœ:œChatInput-32fBBœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-ArXivComponent-ybuPx{œfieldNameœ:œsearch_queryœ,œidœ:œArXivComponent-ybuPxœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-32fBB",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-32fBBœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-32fBBœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ArXivComponent-ybuPx",
-        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œArXivComponent-ybuPxœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œsearch_queryœ, œidœ: œArXivComponent-ybuPxœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -140,9 +140,9 @@
         "id": "reactflow__edge-ArXivComponent-ybuPx{œdataTypeœ:œArXivComponentœ,œidœ:œArXivComponent-ybuPxœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-LoopComponent-fuUJJ{œfieldNameœ:œdataœ,œidœ:œLoopComponent-fuUJJœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "ArXivComponent-ybuPx",
-        "sourceHandle": "{œdataTypeœ:œArXivComponentœ,œidœ:œArXivComponent-ybuPxœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "sourceHandle": "{œdataTypeœ: œArXivComponentœ, œidœ: œArXivComponent-ybuPxœ, œnameœ: œdataœ, œoutput_typesœ: [œDataœ]}",
         "target": "LoopComponent-fuUJJ",
-        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œLoopComponent-fuUJJœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œdataœ, œidœ: œLoopComponent-fuUJJœ, œinputTypesœ: [œDataœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -169,9 +169,9 @@
         "id": "reactflow__edge-LoopComponent-fuUJJ{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-fuUJJœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}-parser-3zzL3{œfieldNameœ:œinput_dataœ,œidœ:œparser-3zzL3œ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "LoopComponent-fuUJJ",
-        "sourceHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-fuUJJœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}",
+        "sourceHandle": "{œdataTypeœ: œLoopComponentœ, œidœ: œLoopComponent-fuUJJœ, œnameœ: œitemœ, œoutput_typesœ: [œDataœ]}",
         "target": "parser-3zzL3",
-        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œparser-3zzL3œ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œinput_dataœ, œidœ: œparser-3zzL3œ, œinputTypesœ: [œDataFrameœ, œDataœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -197,9 +197,9 @@
         "id": "xy-edge__parser-3zzL3{œdataTypeœ:œparserœ,œidœ:œparser-3zzL3œ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-1kfcE{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-1kfcEœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "parser-3zzL3",
-        "sourceHandle": "{œdataTypeœ:œparserœ,œidœ:œparser-3zzL3œ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œparserœ, œidœ: œparser-3zzL3œ, œnameœ: œparsed_textœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-1kfcE",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-1kfcEœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-1kfcEœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -225,9 +225,9 @@
         "id": "xy-edge__PredictionGuardModel-1kfcE{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-1kfcEœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-MessagetoData-tF3zV{œfieldNameœ:œmessageœ,œidœ:œMessagetoData-tF3zVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "PredictionGuardModel-1kfcE",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-1kfcEœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-1kfcEœ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
         "target": "MessagetoData-tF3zV",
-        "targetHandle": "{œfieldNameœ:œmessageœ,œidœ:œMessagetoData-tF3zVœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œmessageœ, œidœ: œMessagetoData-tF3zVœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       }
     ],
     "nodes": [
@@ -262,7 +262,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Data",
-                "hidden": false,
                 "method": "search_papers",
                 "name": "data",
                 "selected": "Data",
@@ -424,7 +423,6 @@
                 "allows_loop": true,
                 "cache": true,
                 "display_name": "Item",
-                "hidden": false,
                 "method": "item_output",
                 "name": "item",
                 "selected": "Data",
@@ -438,7 +436,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Done",
-                "hidden": false,
                 "method": "done_output",
                 "name": "done",
                 "selected": "Data",
@@ -543,7 +540,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Data",
-                "hidden": false,
                 "method": "convert_message_to_data",
                 "name": "data",
                 "selected": "Data",
@@ -654,7 +650,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
-                "hidden": false,
                 "method": "parse_data",
                 "name": "text",
                 "selected": "Message",

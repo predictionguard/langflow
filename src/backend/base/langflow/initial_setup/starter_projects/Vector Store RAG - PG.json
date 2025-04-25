@@ -27,9 +27,9 @@
         "id": "reactflow__edge-ChatInput-v639R{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v639Rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-1BWE4{œfieldNameœ:œquestionœ,œidœ:œPrompt-1BWE4œ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-v639R",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v639Rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-v639Rœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Prompt-1BWE4",
-        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt-1BWE4œ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œquestionœ, œidœ: œPrompt-1BWE4œ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -56,9 +56,9 @@
         "id": "reactflow__edge-File-FHDbh{œdataTypeœ:œFileœ,œidœ:œFile-FHDbhœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-tOxbJ{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-tOxbJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "File-FHDbh",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-FHDbhœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "sourceHandle": "{œdataTypeœ: œFileœ, œidœ: œFile-FHDbhœ, œnameœ: œdataœ, œoutput_typesœ: [œDataœ]}",
         "target": "SplitText-tOxbJ",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-tOxbJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œdata_inputsœ, œidœ: œSplitText-tOxbJœ, œinputTypesœ: [œDataœ, œDataFrameœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -85,9 +85,9 @@
         "id": "reactflow__edge-parser-rPJPV{œdataTypeœ:œparserœ,œidœ:œparser-rPJPVœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-1BWE4{œfieldNameœ:œcontextœ,œidœ:œPrompt-1BWE4œ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "parser-rPJPV",
-        "sourceHandle": "{œdataTypeœ:œparserœ,œidœ:œparser-rPJPVœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œparserœ, œidœ: œparser-rPJPVœ, œnameœ: œparsed_textœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Prompt-1BWE4",
-        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-1BWE4œ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œcontextœ, œidœ: œPrompt-1BWE4œ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -113,9 +113,9 @@
         "id": "xy-edge__ChatInput-v639R{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v639Rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-pgvector-JYFPX{œfieldNameœ:œsearch_queryœ,œidœ:œpgvector-JYFPXœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}",
         "selected": false,
         "source": "ChatInput-v639R",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v639Rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-v639Rœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "pgvector-JYFPX",
-        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œpgvector-JYFPXœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}"
+        "targetHandle": "{œfieldNameœ: œsearch_queryœ, œidœ: œpgvector-JYFPXœ, œinputTypesœ: [œMessageœ], œtypeœ: œqueryœ}"
       },
       {
         "animated": false,
@@ -141,9 +141,9 @@
         "id": "xy-edge__PredictionGuardEmbeddings-3eyc2{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-3eyc2œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-JYFPX{œfieldNameœ:œembeddingœ,œidœ:œpgvector-JYFPXœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "PredictionGuardEmbeddings-3eyc2",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-3eyc2œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardEmbeddingsœ, œidœ: œPredictionGuardEmbeddings-3eyc2œ, œnameœ: œembeddingsœ, œoutput_typesœ: [œEmbeddingsœ]}",
         "target": "pgvector-JYFPX",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-JYFPXœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œembeddingœ, œidœ: œpgvector-JYFPXœ, œinputTypesœ: [œEmbeddingsœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -170,9 +170,9 @@
         "id": "xy-edge__pgvector-JYFPX{œdataTypeœ:œpgvectorœ,œidœ:œpgvector-JYFPXœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-parser-rPJPV{œfieldNameœ:œinput_dataœ,œidœ:œparser-rPJPVœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "pgvector-JYFPX",
-        "sourceHandle": "{œdataTypeœ:œpgvectorœ,œidœ:œpgvector-JYFPXœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "sourceHandle": "{œdataTypeœ: œpgvectorœ, œidœ: œpgvector-JYFPXœ, œnameœ: œdataframeœ, œoutput_typesœ: [œDataFrameœ]}",
         "target": "parser-rPJPV",
-        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œparser-rPJPVœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œinput_dataœ, œidœ: œparser-rPJPVœ, œinputTypesœ: [œDataFrameœ, œDataœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -198,9 +198,9 @@
         "id": "xy-edge__Prompt-1BWE4{œdataTypeœ:œPromptœ,œidœ:œPrompt-1BWE4œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-qpkzm{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-qpkzmœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-1BWE4",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-1BWE4œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-1BWE4œ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-qpkzm",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-qpkzmœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-qpkzmœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -228,9 +228,9 @@
         "id": "xy-edge__PredictionGuardModel-qpkzm{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-qpkzmœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-TDbuC{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-TDbuCœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "PredictionGuardModel-qpkzm",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-qpkzmœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-qpkzmœ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ChatOutput-TDbuC",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-TDbuCœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-TDbuCœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -257,9 +257,9 @@
         "id": "xy-edge__SplitText-tOxbJ{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-tOxbJœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-pgvector-mSYMJ{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-mSYMJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "SplitText-tOxbJ",
-        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-tOxbJœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}",
+        "sourceHandle": "{œdataTypeœ: œSplitTextœ, œidœ: œSplitText-tOxbJœ, œnameœ: œchunksœ, œoutput_typesœ: [œDataœ]}",
         "target": "pgvector-mSYMJ",
-        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-mSYMJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œingest_dataœ, œidœ: œpgvector-mSYMJœ, œinputTypesœ: [œDataœ, œDataFrameœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -285,9 +285,9 @@
         "id": "xy-edge__PredictionGuardEmbeddings-PQEml{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-PQEmlœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-mSYMJ{œfieldNameœ:œembeddingœ,œidœ:œpgvector-mSYMJœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "PredictionGuardEmbeddings-PQEml",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-PQEmlœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardEmbeddingsœ, œidœ: œPredictionGuardEmbeddings-PQEmlœ, œnameœ: œembeddingsœ, œoutput_typesœ: [œEmbeddingsœ]}",
         "target": "pgvector-mSYMJ",
-        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-mSYMJœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œembeddingœ, œidœ: œpgvector-mSYMJœ, œinputTypesœ: [œEmbeddingsœ], œtypeœ: œotherœ}"
       }
     ],
     "nodes": [
@@ -326,7 +326,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
-                "hidden": false,
                 "method": "message_response",
                 "name": "message",
                 "selected": "Message",
@@ -619,7 +618,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
                 "selected": "Message",
@@ -792,7 +790,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Chunks",
-                "hidden": false,
                 "method": "split_text",
                 "name": "chunks",
                 "selected": "Data",
@@ -1422,7 +1419,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Data",
-                "hidden": false,
                 "method": "load_files",
                 "name": "data",
                 "required_inputs": [],
@@ -1918,7 +1914,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "DataFrame",
-                "hidden": false,
                 "method": "as_dataframe",
                 "name": "dataframe",
                 "required_inputs": [],
@@ -2668,7 +2663,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "DataFrame",
-                "hidden": false,
                 "method": "as_dataframe",
                 "name": "dataframe",
                 "required_inputs": [],

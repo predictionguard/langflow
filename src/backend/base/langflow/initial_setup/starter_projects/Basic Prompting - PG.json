@@ -26,9 +26,9 @@
         "id": "xy-edge__Prompt-xWbZ3{œdataTypeœ:œPromptœ,œidœ:œPrompt-xWbZ3œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-AYtno{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-AYtnoœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-xWbZ3",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-xWbZ3œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-xWbZ3œ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-AYtno",
-        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-AYtnoœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œsystem_messageœ, œidœ: œPredictionGuardModel-AYtnoœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -54,9 +54,9 @@
         "id": "xy-edge__ChatInput-iFPL6{œdataTypeœ:œChatInputœ,œidœ:œChatInput-iFPL6œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-AYtno{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-AYtnoœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-iFPL6",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-iFPL6œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-iFPL6œ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-AYtno",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-AYtnoœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-AYtnoœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -84,9 +84,9 @@
         "id": "xy-edge__PredictionGuardModel-AYtno{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-AYtnoœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-DnOzu{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-DnOzuœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "PredictionGuardModel-AYtno",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-AYtnoœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-AYtnoœ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ChatOutput-DnOzu",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-DnOzuœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-DnOzuœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œstrœ}"
       }
     ],
     "nodes": [
@@ -125,7 +125,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
-                "hidden": false,
                 "method": "message_response",
                 "name": "message",
                 "selected": "Message",
@@ -409,7 +408,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
                 "selected": "Message",

@@ -27,9 +27,9 @@
         "id": "reactflow__edge-ChatInput-LgUtc{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LgUtcœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-fSZpl{œfieldNameœ:œinput_valueœ,œidœ:œPrompt-fSZplœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-LgUtc",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LgUtcœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-LgUtcœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Prompt-fSZpl",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPrompt-fSZplœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPrompt-fSZplœ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -55,9 +55,9 @@
         "id": "reactflow__edge-Prompt-e7Jgm{œdataTypeœ:œPromptœ,œidœ:œPrompt-e7Jgmœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-Agent-ZBLVK{œfieldNameœ:œinput_valueœ,œidœ:œAgent-ZBLVKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-e7Jgm",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-e7Jgmœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-e7Jgmœ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "Agent-ZBLVK",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-ZBLVKœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œAgent-ZBLVKœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -74,18 +74,16 @@
           "targetHandle": {
             "fieldName": "agent_llm",
             "id": "Agent-ZBLVK",
-            "inputTypes": [
-              "LanguageModel"
-            ],
+            "inputTypes": [],
             "type": "str"
           }
         },
         "id": "xy-edge__PredictionGuardModel-ZyeBi{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-ZyeBiœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-ZBLVK{œfieldNameœ:œagent_llmœ,œidœ:œAgent-ZBLVKœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "PredictionGuardModel-ZyeBi",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-ZyeBiœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-ZyeBiœ, œnameœ: œmodel_outputœ, œoutput_typesœ: [œLanguageModelœ]}",
         "target": "Agent-ZBLVK",
-        "targetHandle": "{œfieldNameœ:œagent_llmœ,œidœ:œAgent-ZBLVKœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œagent_llmœ, œidœ: œAgent-ZBLVKœ, œinputTypesœ: [], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -111,9 +109,9 @@
         "id": "xy-edge__Prompt-fSZpl{œdataTypeœ:œPromptœ,œidœ:œPrompt-fSZplœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-n1edR{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-n1edRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-fSZpl",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-fSZplœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-fSZplœ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-n1edR",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-n1edRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-n1edRœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -139,9 +137,9 @@
         "id": "xy-edge__Prompt-K0BWI{œdataTypeœ:œPromptœ,œidœ:œPrompt-K0BWIœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-n1edR{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-n1edRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-K0BWI",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-K0BWIœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-K0BWIœ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-n1edR",
-        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-n1edRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œsystem_messageœ, œidœ: œPredictionGuardModel-n1edRœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -169,9 +167,9 @@
         "id": "xy-edge__PredictionGuardModel-n1edR{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-n1edRœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-3dxgU{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-3dxgUœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "PredictionGuardModel-n1edR",
-        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-n1edRœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-n1edRœ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
         "target": "ChatOutput-3dxgU",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-3dxgUœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-3dxgUœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œotherœ}"
       },
       {
         "animated": false,
@@ -197,9 +195,9 @@
         "id": "xy-edge__ChatInput-LgUtc{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LgUtcœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-CCMK2{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-CCMK2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "ChatInput-LgUtc",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-LgUtcœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-LgUtcœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-CCMK2",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-CCMK2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-CCMK2œ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -225,9 +223,9 @@
         "id": "xy-edge__Prompt-ODbvR{œdataTypeœ:œPromptœ,œidœ:œPrompt-ODbvRœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-CCMK2{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-CCMK2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
         "source": "Prompt-ODbvR",
-        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-ODbvRœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-ODbvRœ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
         "target": "PredictionGuardModel-CCMK2",
-        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-CCMK2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "targetHandle": "{œfieldNameœ: œsystem_messageœ, œidœ: œPredictionGuardModel-CCMK2œ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
       },
       {
         "animated": false,
@@ -253,9 +251,9 @@
         "id": "xy-edge__DuckDuckGoSearchComponent-XxAmJ{œdataTypeœ:œDuckDuckGoSearchComponentœ,œidœ:œDuckDuckGoSearchComponent-XxAmJœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-ZBLVK{œfieldNameœ:œtoolsœ,œidœ:œAgent-ZBLVKœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "DuckDuckGoSearchComponent-XxAmJ",
-        "sourceHandle": "{œdataTypeœ:œDuckDuckGoSearchComponentœ,œidœ:œDuckDuckGoSearchComponent-XxAmJœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "sourceHandle": "{œdataTypeœ: œDuckDuckGoSearchComponentœ, œidœ: œDuckDuckGoSearchComponent-XxAmJœ, œnameœ: œcomponent_as_toolœ, œoutput_typesœ: [œToolœ]}",
         "target": "Agent-ZBLVK",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-ZBLVKœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "targetHandle": "{œfieldNameœ: œtoolsœ, œidœ: œAgent-ZBLVKœ, œinputTypesœ: [œToolœ], œtypeœ: œotherœ}"
       }
     ],
     "nodes": [
@@ -300,11 +298,8 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
-                "options": null,
-                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
@@ -459,7 +454,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
-                "hidden": false,
                 "method": "message_response",
                 "name": "message",
                 "selected": "Message",
@@ -753,7 +747,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
                 "selected": "Message",
@@ -950,11 +943,8 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Response",
-                "hidden": null,
                 "method": "message_response",
                 "name": "response",
-                "options": null,
-                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
@@ -1011,12 +1001,10 @@
                 "advanced": false,
                 "combobox": false,
                 "dialog_inputs": {},
-                "display_name": "Language Model",
+                "display_name": "Model Provider",
                 "dynamic": false,
-                "info": "",
-                "input_types": [
-                  "LanguageModel"
-                ],
+                "info": "The provider of the language model that the agent will use to generate responses.",
+                "input_types": [],
                 "name": "agent_llm",
                 "options": [
                   "Amazon Bedrock",
@@ -1069,13 +1057,29 @@
                 "type": "str",
                 "value": ""
               },
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "OpenAI API Key",
+                "dynamic": false,
+                "info": "The OpenAI API Key to use for the OpenAI model.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
               "code": {
                 "advanced": true,
                 "dynamic": true,
                 "fileTypes": [],
                 "file_path": "",
                 "info": "",
-                "input_types": [],
                 "list": false,
                 "load_from_db": false,
                 "multiline": true,
@@ -1127,6 +1131,24 @@
                 "type": "str",
                 "value": ""
               },
+              "json_mode": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "JSON Mode",
+                "dynamic": false,
+                "info": "If True, it will output JSON regardless of passing a schema.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "json_mode",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -1143,6 +1165,48 @@
                 "trace_as_metadata": true,
                 "type": "int",
                 "value": 15
+              },
+              "max_retries": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Retries",
+                "dynamic": false,
+                "info": "The maximum number of retries to make when generating.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_retries",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 5
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate. Set to 0 for unlimited tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000.0,
+                  "min": 0.0,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
               },
               "memory": {
                 "_input_type": "HandleInput",
@@ -1163,6 +1227,58 @@
                 "type": "other",
                 "value": ""
               },
+              "model_kwargs": {
+                "_input_type": "DictInput",
+                "advanced": true,
+                "display_name": "Model Kwargs",
+                "dynamic": false,
+                "info": "Additional keyword arguments to pass to the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "model_kwargs",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "dict",
+                "value": {}
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": false,
+                "info": "To see the model names, first choose a provider. Then, enter your API key and click the refresh button next to the model name.",
+                "name": "model_name",
+                "options": [
+                  "gpt-4o-mini",
+                  "gpt-4o",
+                  "gpt-4.1",
+                  "gpt-4.1-mini",
+                  "gpt-4.1-nano",
+                  "gpt-4.5-preview",
+                  "gpt-4-turbo",
+                  "gpt-4-turbo-preview",
+                  "gpt-4",
+                  "gpt-3.5-turbo",
+                  "o1"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": false,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "gpt-4o"
+              },
               "n_messages": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -1179,6 +1295,25 @@
                 "trace_as_metadata": true,
                 "type": "int",
                 "value": 100
+              },
+              "openai_api_base": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "OpenAI API Base",
+                "dynamic": false,
+                "info": "The base URL of the OpenAI API. Defaults to https://api.openai.com/v1. You can change this to use other APIs like JinaChat, LocalAI and Prem.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "openai_api_base",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
               },
               "order": {
                 "_input_type": "DropdownInput",
@@ -1201,6 +1336,24 @@
                 "trace_as_metadata": true,
                 "type": "str",
                 "value": "Ascending"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Seed",
+                "dynamic": false,
+                "info": "The seed controls the reproducibility of the job.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1
               },
               "sender": {
                 "_input_type": "DropdownInput",
@@ -1292,6 +1445,34 @@
                 "type": "str",
                 "value": "You are a research analyst with access to DuckDuckGo Search"
               },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1.0,
+                  "min": 0.0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.1
+              },
               "template": {
                 "_input_type": "MultilineInput",
                 "advanced": true,
@@ -1314,6 +1495,24 @@
                 "trace_as_metadata": true,
                 "type": "str",
                 "value": "{sender_name}: {text}"
+              },
+              "timeout": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Timeout",
+                "dynamic": false,
+                "info": "The timeout for requests to OpenAI completion API.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "timeout",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 700
               },
               "tools": {
                 "_input_type": "HandleInput",
@@ -1407,7 +1606,6 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
                 "selected": "Message",
@@ -1542,11 +1740,8 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
-                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
-                "options": null,
-                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
