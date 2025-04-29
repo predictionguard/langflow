@@ -1,0 +1,3851 @@
+{
+  "access_type": "PRIVATE",
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "File",
+            "id": "File-WFjP1",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "ingest_data",
+            "id": "CustomComponent-2gbw8",
+            "inputTypes": [
+              "Data",
+              "Document",
+              "DataFrame",
+              "Any"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__File-WFjP1{œdataTypeœ:œFileœ,œidœ:œFile-WFjP1œ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-2gbw8{œfieldNameœ:œingest_dataœ,œidœ:œCustomComponent-2gbw8œ,œinputTypesœ:[œDataœ,œDocumentœ,œDataFrameœ,œAnyœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "File-WFjP1",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-WFjP1œ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-2gbw8",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œCustomComponent-2gbw8œ,œinputTypesœ:[œDataœ,œDocumentœ,œDataFrameœ,œAnyœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLQueryInput",
+            "id": "TextInput-buEGH",
+            "name": "text",
+            "output_types": [
+              "Text"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "query",
+            "id": "SQLExecutor-0aTtW",
+            "inputTypes": [
+              "Text"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-buEGH{œdataTypeœ:œSQLQueryInputœ,œidœ:œTextInput-buEGHœ,œnameœ:œtextœ,œoutput_typesœ:[œTextœ]}-SQLExecutor-0aTtW{œfieldNameœ:œqueryœ,œidœ:œSQLExecutor-0aTtWœ,œinputTypesœ:[œTextœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-buEGH",
+        "sourceHandle": "{œdataTypeœ:œSQLQueryInputœ,œidœ:œTextInput-buEGHœ,œnameœ:œtextœ,œoutput_typesœ:[œTextœ]}",
+        "target": "SQLExecutor-0aTtW",
+        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œSQLExecutor-0aTtWœ,œinputTypesœ:[œTextœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-AMQLN",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "PredictionGuardModel-yVupe",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-AMQLN{œdataTypeœ:œTextInputœ,œidœ:œTextInput-AMQLNœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-yVupe{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-yVupeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-AMQLN",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-AMQLNœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "PredictionGuardModel-yVupe",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-yVupeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PredictionGuardModel",
+            "id": "PredictionGuardModel-yVupe",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "query",
+            "id": "SQLQueryInput-Em9h9",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__PredictionGuardModel-yVupe{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-yVupeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-SQLQueryInput-Em9h9{œfieldNameœ:œqueryœ,œidœ:œSQLQueryInput-Em9h9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "PredictionGuardModel-yVupe",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-yVupeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "SQLQueryInput-Em9h9",
+        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œSQLQueryInput-Em9h9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLQueryInput",
+            "id": "SQLQueryInput-Em9h9",
+            "name": "text",
+            "output_types": [
+              "Text"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "query",
+            "id": "SQLExecutor-fwO79",
+            "inputTypes": [
+              "Text"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__SQLQueryInput-Em9h9{œdataTypeœ:œSQLQueryInputœ,œidœ:œSQLQueryInput-Em9h9œ,œnameœ:œtextœ,œoutput_typesœ:[œTextœ]}-SQLExecutor-fwO79{œfieldNameœ:œqueryœ,œidœ:œSQLExecutor-fwO79œ,œinputTypesœ:[œTextœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "SQLQueryInput-Em9h9",
+        "sourceHandle": "{œdataTypeœ:œSQLQueryInputœ,œidœ:œSQLQueryInput-Em9h9œ,œnameœ:œtextœ,œoutput_typesœ:[œTextœ]}",
+        "target": "SQLExecutor-fwO79",
+        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œSQLExecutor-fwO79œ,œinputTypesœ:[œTextœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLExecutor",
+            "id": "SQLExecutor-fwO79",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "Data",
+            "id": "Prompt-d1tOu",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__SQLExecutor-fwO79{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-fwO79œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-d1tOu{œfieldNameœ:œDataœ,œidœ:œPrompt-d1tOuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "SQLExecutor-fwO79",
+        "sourceHandle": "{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-fwO79œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-d1tOu",
+        "targetHandle": "{œfieldNameœ:œDataœ,œidœ:œPrompt-d1tOuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt",
+            "id": "Prompt-d1tOu",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "PredictionGuardModel-IL4oe",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt-d1tOu{œdataTypeœ:œPromptœ,œidœ:œPrompt-d1tOuœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-IL4oe{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-IL4oeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt-d1tOu",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-d1tOuœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "PredictionGuardModel-IL4oe",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-IL4oeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-AMQLN",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tablename",
+            "id": "Prompt-d1tOu",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-AMQLN{œdataTypeœ:œTextInputœ,œidœ:œTextInput-AMQLNœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-d1tOu{œfieldNameœ:œtablenameœ,œidœ:œPrompt-d1tOuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-AMQLN",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-AMQLNœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-d1tOu",
+        "targetHandle": "{œfieldNameœ:œtablenameœ,œidœ:œPrompt-d1tOuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-mvgFD",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "request",
+            "id": "Prompt-d1tOu",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-mvgFD{œdataTypeœ:œChatInputœ,œidœ:œChatInput-mvgFDœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-d1tOu{œfieldNameœ:œrequestœ,œidœ:œPrompt-d1tOuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-mvgFD",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-mvgFDœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-d1tOu",
+        "targetHandle": "{œfieldNameœ:œrequestœ,œidœ:œPrompt-d1tOuœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PredictionGuardModel",
+            "id": "PredictionGuardModel-IL4oe",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "query",
+            "id": "TextInput-buEGH",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__PredictionGuardModel-IL4oe{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-IL4oeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-TextInput-buEGH{œfieldNameœ:œqueryœ,œidœ:œTextInput-buEGHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "PredictionGuardModel-IL4oe",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-IL4oeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextInput-buEGH",
+        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œTextInput-buEGHœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLExecutor",
+            "id": "SQLExecutor-0aTtW",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "new",
+            "id": "Prompt-kTw6i",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__SQLExecutor-0aTtW{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-0aTtWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-kTw6i{œfieldNameœ:œnewœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "SQLExecutor-0aTtW",
+        "sourceHandle": "{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-0aTtWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-kTw6i",
+        "targetHandle": "{œfieldNameœ:œnewœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PredictionGuardModel",
+            "id": "PredictionGuardModel-wLu97",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-6N3P0",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__PredictionGuardModel-wLu97{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-wLu97œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-6N3P0{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-6N3P0œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "PredictionGuardModel-wLu97",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-wLu97œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-6N3P0",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-6N3P0œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-AMQLN",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tablename",
+            "id": "Prompt-kTw6i",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-AMQLN{œdataTypeœ:œTextInputœ,œidœ:œTextInput-AMQLNœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-Prompt-kTw6i{œfieldNameœ:œtablenameœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-AMQLN",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-AMQLNœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-kTw6i",
+        "targetHandle": "{œfieldNameœ:œtablenameœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLExecutor",
+            "id": "SQLExecutor-fwO79",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "old",
+            "id": "Prompt-kTw6i",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__SQLExecutor-fwO79{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-fwO79œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-kTw6i{œfieldNameœ:œoldœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "SQLExecutor-fwO79",
+        "sourceHandle": "{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-fwO79œ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-kTw6i",
+        "targetHandle": "{œfieldNameœ:œoldœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PredictionGuardModel",
+            "id": "PredictionGuardModel-IL4oe",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "Question",
+            "id": "Prompt-kTw6i",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__PredictionGuardModel-IL4oe{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-IL4oeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-Prompt-kTw6i{œfieldNameœ:œQuestionœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "PredictionGuardModel-IL4oe",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-IL4oeœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-kTw6i",
+        "targetHandle": "{œfieldNameœ:œQuestionœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLExecutor",
+            "id": "SQLExecutor-0aTtW",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "query",
+            "id": "Prompt-kTw6i",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__SQLExecutor-0aTtW{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-0aTtWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-kTw6i{œfieldNameœ:œqueryœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "SQLExecutor-0aTtW",
+        "sourceHandle": "{œdataTypeœ:œSQLExecutorœ,œidœ:œSQLExecutor-0aTtWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-kTw6i",
+        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œPrompt-kTw6iœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt",
+            "id": "Prompt-kTw6i",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "system_message",
+            "id": "PredictionGuardModel-wLu97",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt-kTw6i{œdataTypeœ:œPromptœ,œidœ:œPrompt-kTw6iœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-wLu97{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-wLu97œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt-kTw6i",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-kTw6iœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "PredictionGuardModel-wLu97",
+        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œPredictionGuardModel-wLu97œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "description": "Display a chat message in the Playground.",
+          "display_name": "Chat Output",
+          "id": "ChatOutput-6N3P0",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.inputs.inputs import HandleInput\nfrom langflow.io import DropdownInput, MessageTextInput, Output\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                if data.get_text() is None:\n                    msg = \"Empty Data object\"\n                    raise ValueError(msg)\n                return data.get_text()\n            if isinstance(data, DataFrame):\n                if self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n\n                # Replace pipe characters to avoid markdown table issues\n                processed_data = data.replace(r\"\\|\", r\"\\\\|\", regex=True)\n\n                processed_data = processed_data.map(\n                    lambda x: str(x).replace(\"\\n\", \"<br/>\") if isinstance(x, str) else x\n                )\n\n                return processed_data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([self._safe_convert(item) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return self._safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "height": 234,
+        "id": "ChatOutput-6N3P0",
+        "measured": {
+          "height": 234,
+          "width": 400
+        },
+        "position": {
+          "x": 7788.563115491536,
+          "y": -822.4220270379094
+        },
+        "positionAbsolute": {
+          "x": 2734.385670401691,
+          "y": 810.6079786425926
+        },
+        "selected": false,
+        "type": "genericNode",
+        "width": 320
+      },
+      {
+        "data": {
+          "id": "CustomComponent-2gbw8",
+          "node": {
+            "base_classes": [
+              "Any",
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Creates a relational table from CSV data in PostgreSQL.",
+            "display_name": "PostgreSQL CSV Uploader",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "pg_server_url",
+              "collection_name",
+              "ingest_data"
+            ],
+            "frozen": true,
+            "icon": "upload",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Search Results",
+                "hidden": null,
+                "method": "search_documents",
+                "name": "search_results",
+                "options": null,
+                "required_inputs": [
+                  "collection_name",
+                  "ingest_data",
+                  "pg_server_url"
+                ],
+                "selected": "Any",
+                "tool_mode": true,
+                "types": [
+                  "Any"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "hidden": null,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": [],
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# pg_csv_uploader.py\nfrom __future__ import annotations\nfrom typing import Any, Dict, List, Optional\n\nimport pandas as pd\nimport io\nfrom sqlalchemy import (\n    create_engine,\n    MetaData,\n    Table,\n    Column,\n    Integer,\n    String,\n    Date,\n)\n\nfrom langflow.base.vectorstores.model import (\n    LCVectorStoreComponent,\n    check_cached_vector_store,\n)\nfrom langflow.io import HandleInput, SecretStrInput, StrInput\nfrom langflow.schema import Data\nfrom langchain.schema import Document\n\n\nclass PGCSVUploaderComponent(LCVectorStoreComponent):\n    \"\"\"\n    Specialized CSV to PostgreSQL uploader.\n    Parses CSV data and creates a proper relational table with columns matching the CSV.\n    \n    Table schema is dynamically created based on CSV headers.\n    \"\"\"\n    display_name = \"PostgreSQL CSV Uploader\"\n    description = \"Creates a relational table from CSV data in PostgreSQL.\"\n    name = \"pg_csv_uploader\"\n    icon = \"upload\"\n\n    # ─────────────────────────── inputs ────────────────────────────\n    inputs = [\n        SecretStrInput(\n            name=\"pg_server_url\",\n            display_name=\"PostgreSQL URL\",\n            required=True,\n            placeholder=\"postgresql://user:pwd@host:5432/dbname\",\n        ),\n        StrInput(\n            name=\"collection_name\",\n            display_name=\"Target table\",\n            required=True,\n            placeholder=\"my_table\",\n        ),\n        HandleInput(\n            name=\"ingest_data\",\n            display_name=\"📥 CSV Data\",\n            input_types=[\"Data\", \"Document\", \"DataFrame\", \"Any\"],\n            required=True,\n        ),\n    ]\n\n    # ────────────────────────── helpers ────────────────────────────\n    def _engine(self) -> Any:\n        \"\"\"Create and return a SQLAlchemy engine instance.\"\"\"\n        # Handle both SecretStr and str types\n        if hasattr(self.pg_server_url, 'get_secret_value'):\n            connection_string = self.pg_server_url.get_secret_value()\n        else:\n            connection_string = self.pg_server_url\n            \n        return create_engine(\n            connection_string,\n            isolation_level=\"AUTOCOMMIT\",\n            pool_pre_ping=True,\n        )\n    \n    def _extract_csv_content(self, data) -> Optional[str]:\n        \"\"\"Extract CSV content from various input types.\"\"\"\n        if isinstance(data, pd.DataFrame):\n            # Convert DataFrame back to CSV\n            return data.to_csv(index=False)\n        elif isinstance(data, Document):\n            return data.page_content\n        elif isinstance(data, Data):\n            doc = data.to_lc_document()\n            return doc.page_content\n        elif isinstance(data, str):\n            return data\n        elif isinstance(data, list) and len(data) > 0:\n            # Try the first item if it's a list\n            return self._extract_csv_content(data[0])\n        return None\n\n    def _create_table_from_csv(self, csv_content: str, engine, table_name: str) -> Optional[Table]:\n        \"\"\"Create a properly structured table based on CSV headers.\"\"\"\n        try:\n            # Parse CSV to determine columns\n            df = pd.read_csv(io.StringIO(csv_content))\n            \n            # Create metadata and table definition\n            metadata = MetaData()\n            \n            # Start with ID column\n            columns = [Column(\"id\", Integer, primary_key=True, autoincrement=True)]\n            \n            # Add columns based on CSV headers\n            for col_name in df.columns:\n                # Determine column type based on data\n                col_type = String(255)  # Default to String\n                \n                # Check if it looks like a date column\n                if 'date' in col_name.lower() and df[col_name].dtype == 'object':\n                    # Try to convert to datetime\n                    try:\n                        pd.to_datetime(df[col_name])\n                        col_type = Date()\n                    except:\n                        pass  # Keep as String if conversion fails\n                \n                # Add column to definition\n                columns.append(Column(col_name, col_type))\n            \n            # Create table\n            table = Table(table_name, metadata, *columns)\n            metadata.create_all(engine)\n            \n            return table, df\n        except Exception as e:\n            print(f\"Error creating table: {str(e)}\")\n            return None, None\n\n    # ───────────────────── mandatory VectorStore hook ─────────────\n    @check_cached_vector_store\n    def build_vector_store(self) -> Any:\n        \"\"\"Create a proper relational table and upload CSV data.\"\"\"\n        engine = self._engine()\n        \n        # Check if we have data to process\n        if not hasattr(self, 'ingest_data'):\n            return None\n\n        # Extract CSV content\n        csv_content = self._extract_csv_content(self.ingest_data)\n        \n        if not csv_content:\n            print(\"No valid CSV content found\")\n            return None\n        \n        # Create table from CSV and get DataFrame\n        result = self._create_table_from_csv(csv_content, engine, self.collection_name)\n        \n        if not result:\n            return None\n            \n        table, df = result\n        \n        # Insert data into table\n        if df is not None and not df.empty:\n            # Convert DataFrame to list of dictionaries\n            records = df.to_dict('records')\n            \n            # Insert records into table\n            if records:\n                with engine.begin() as conn:\n                    # Use table.insert().values() for proper SQL insertion\n                    for record in records:\n                        conn.execute(table.insert().values(**record))\n        \n        return table\n\n    def search_documents(self, query: Optional[str] = None, k: int = 4) -> List[Any]:\n        \"\"\"Required method - just triggers the upload.\"\"\"\n        self.build_vector_store()\n        return []\n        \n    def build_config(self) -> Dict[str, Any]:\n        \"\"\"Build the configuration template for the component.\"\"\"\n        return {\n            \"pg_server_url\": {\n                \"display_name\": \"PostgreSQL URL\",\n                \"info\": \"Connection string for PostgreSQL server\",\n                \"required\": True,\n                \"placeholder\": \"postgresql://user:pwd@host:5432/dbname\",\n                \"type\": \"str\",\n                \"password\": True\n            },\n            \"collection_name\": {\n                \"display_name\": \"Target table\",\n                \"info\": \"Name of the table to create\",\n                \"required\": True,\n                \"placeholder\": \"my_table\",\n                \"type\": \"str\"\n            },\n            \"ingest_data\": {\n                \"display_name\": \"CSV Data\",\n                \"info\": \"CSV data to upload as a relational table\",\n                \"required\": True,\n                \"type\": \"handle\"\n            }\n        }"
+              },
+              "collection_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Target table",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "collection_name",
+                "placeholder": "my_table",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "testing_sql"
+              },
+              "ingest_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "📥 CSV Data",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "Document",
+                  "DataFrame",
+                  "Any"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "ingest_data",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "pg_server_url": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "PostgreSQL URL",
+                "dynamic": false,
+                "info": "",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "pg_server_url",
+                "password": true,
+                "placeholder": "postgresql://user:pwd@host:5432/dbname",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "postgresql://pgdemo_owner:npg_4zWdk5EbMmsS@ep-tiny-thunder-a4di3fcq-pooler.us-east-1.aws.neon.tech/pgdemo?sslmode=require"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "pg_csv_uploader"
+        },
+        "dragging": false,
+        "id": "CustomComponent-2gbw8",
+        "measured": {
+          "height": 507,
+          "width": 400
+        },
+        "position": {
+          "x": -909.6902790151788,
+          "y": -1765.8703456441053
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "File-WFjP1",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Load a file to be used in your project.",
+            "display_name": "File",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "path",
+              "silent_errors",
+              "use_multithreading",
+              "concurrency_multithreading"
+            ],
+            "frozen": false,
+            "icon": "file-text",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data",
+                "hidden": false,
+                "method": "load_files",
+                "name": "data",
+                "required_inputs": [],
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "hidden": false,
+                "method": "load_dataframe",
+                "name": "dataframe",
+                "required_inputs": [],
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "load_message",
+                "name": "message",
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data import BaseFileComponent\nfrom langflow.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, parse_text_file_to_data\nfrom langflow.io import BoolInput, IntInput\nfrom langflow.schema import Data\n\n\nclass FileComponent(BaseFileComponent):\n    \"\"\"Handles loading and processing of individual or zipped text files.\n\n    This component supports processing multiple valid files within a zip archive,\n    resolving paths, validating file types, and optionally using multithreading for processing.\n    \"\"\"\n\n    display_name = \"File\"\n    description = \"Load a file to be used in your project.\"\n    icon = \"file-text\"\n    name = \"File\"\n\n    VALID_EXTENSIONS = TEXT_FILE_TYPES\n\n    inputs = [\n        *BaseFileComponent._base_inputs,\n        BoolInput(\n            name=\"use_multithreading\",\n            display_name=\"[Deprecated] Use Multithreading\",\n            advanced=True,\n            value=True,\n            info=\"Set 'Processing Concurrency' greater than 1 to enable multithreading.\",\n        ),\n        IntInput(\n            name=\"concurrency_multithreading\",\n            display_name=\"Processing Concurrency\",\n            advanced=True,\n            info=\"When multiple files are being processed, the number of files to process concurrently.\",\n            value=1,\n        ),\n    ]\n\n    outputs = [\n        *BaseFileComponent._base_outputs,\n    ]\n\n    def process_files(self, file_list: list[BaseFileComponent.BaseFile]) -> list[BaseFileComponent.BaseFile]:\n        \"\"\"Processes files either sequentially or in parallel, depending on concurrency settings.\n\n        Args:\n            file_list (list[BaseFileComponent.BaseFile]): List of files to process.\n\n        Returns:\n            list[BaseFileComponent.BaseFile]: Updated list of files with merged data.\n        \"\"\"\n\n        def process_file(file_path: str, *, silent_errors: bool = False) -> Data | None:\n            \"\"\"Processes a single file and returns its Data object.\"\"\"\n            try:\n                return parse_text_file_to_data(file_path, silent_errors=silent_errors)\n            except FileNotFoundError as e:\n                msg = f\"File not found: {file_path}. Error: {e}\"\n                self.log(msg)\n                if not silent_errors:\n                    raise\n                return None\n            except Exception as e:\n                msg = f\"Unexpected error processing {file_path}: {e}\"\n                self.log(msg)\n                if not silent_errors:\n                    raise\n                return None\n\n        if not file_list:\n            msg = \"No files to process.\"\n            raise ValueError(msg)\n\n        concurrency = 1 if not self.use_multithreading else max(1, self.concurrency_multithreading)\n        file_count = len(file_list)\n\n        parallel_processing_threshold = 2\n        if concurrency < parallel_processing_threshold or file_count < parallel_processing_threshold:\n            if file_count > 1:\n                self.log(f\"Processing {file_count} files sequentially.\")\n            processed_data = [process_file(str(file.path), silent_errors=self.silent_errors) for file in file_list]\n        else:\n            self.log(f\"Starting parallel processing of {file_count} files with concurrency: {concurrency}.\")\n            file_paths = [str(file.path) for file in file_list]\n            processed_data = parallel_load_data(\n                file_paths,\n                silent_errors=self.silent_errors,\n                load_function=process_file,\n                max_concurrency=concurrency,\n            )\n\n        # Use rollup_basefile_data to merge processed data with BaseFile objects\n        return self.rollup_data(file_list, processed_data)\n"
+              },
+              "concurrency_multithreading": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Processing Concurrency",
+                "dynamic": false,
+                "info": "When multiple files are being processed, the number of files to process concurrently.",
+                "list": false,
+                "name": "concurrency_multithreading",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 4
+              },
+              "delete_server_file_after_processing": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Delete Server File After Processing",
+                "dynamic": false,
+                "info": "If true, the Server File Path will be deleted after processing.",
+                "list": false,
+                "name": "delete_server_file_after_processing",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "file_path": {
+                "_input_type": "HandleInput",
+                "advanced": true,
+                "display_name": "Server File Path",
+                "dynamic": false,
+                "info": "Data object with a 'file_path' property pointing to server file or a Message object with a path to the file. Supercedes 'Path' but supports same file types.",
+                "input_types": [
+                  "Data",
+                  "Message"
+                ],
+                "list": true,
+                "name": "file_path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "ignore_unspecified_files": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Unspecified Files",
+                "dynamic": false,
+                "info": "If true, Data with no 'file_path' property will be ignored.",
+                "list": false,
+                "name": "ignore_unspecified_files",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "ignore_unsupported_extensions": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Unsupported Extensions",
+                "dynamic": false,
+                "info": "If true, files with unsupported extensions will not be processed.",
+                "list": false,
+                "name": "ignore_unsupported_extensions",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "path": {
+                "_input_type": "FileInput",
+                "advanced": false,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "zip",
+                  "tar",
+                  "tgz",
+                  "bz2",
+                  "gz"
+                ],
+                "file_path": [
+                  "4cbc23a2-1ab8-4d36-9123-e9583cc8898c/95b8362a-061c-4928-b70e-4af635ad8b0e.csv"
+                ],
+                "info": "Supported file extensions: txt, md, mdx, csv, json, yaml, yml, xml, html, htm, pdf, docx, py, sh, sql, js, ts, tsx; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
+                "list": true,
+                "name": "path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "file",
+                "value": ""
+              },
+              "separator": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "Specify the separator to use between multiple outputs in Message format.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "separator",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n\n"
+              },
+              "silent_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Silent Errors",
+                "dynamic": false,
+                "info": "If true, errors will not raise an exception.",
+                "list": false,
+                "name": "silent_errors",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "use_multithreading": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "[Deprecated] Use Multithreading",
+                "dynamic": false,
+                "info": "Set 'Processing Concurrency' greater than 1 to enable multithreading.",
+                "list": false,
+                "name": "use_multithreading",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "type": "File"
+        },
+        "dragging": false,
+        "id": "File-WFjP1",
+        "measured": {
+          "height": 424,
+          "width": 400
+        },
+        "position": {
+          "x": -1581.8051350654728,
+          "y": -1288.30890238113
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-buEGH",
+          "node": {
+            "base_classes": [
+              "Text"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Input SQL queries for database execution.",
+            "display_name": "SQL Query Input",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "query"
+            ],
+            "frozen": false,
+            "icon": "database",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Query",
+                "hidden": false,
+                "method": "query_response",
+                "name": "text",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Text",
+                "tool_mode": true,
+                "types": [
+                  "Text"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.field_typing import Text\n\nclass SQLQueryInputComponent(TextComponent):\n    display_name = \"SQL Query Input\"\n    description = \"Input SQL queries for database execution.\"\n    icon = \"database\"\n    name = \"SQLQueryInput\"\n    inputs = [\n        MultilineInput(\n            name=\"query\",\n            display_name=\"SQL Query\",\n            info=\"SQL query to be executed against a database.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Query\", name=\"text\", method=\"query_response\"),\n    ]\n    \n    def query_response(self) -> Text:\n        return self.query"
+              },
+              "query": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "SQL Query",
+                "dynamic": false,
+                "info": "SQL query to be executed against a database.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "query",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "asdasd"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SQLQueryInput"
+        },
+        "dragging": false,
+        "id": "TextInput-buEGH",
+        "measured": {
+          "height": 286,
+          "width": 400
+        },
+        "position": {
+          "x": 4135.033346113716,
+          "y": -2011.6378004133662
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SQLExecutor-0aTtW",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": true,
+            "conditional_paths": [],
+            "custom_fields": {
+              "add_error": null,
+              "database_url": null,
+              "include_columns": null,
+              "passthrough": null,
+              "query": null
+            },
+            "description": "Execute SQL query.",
+            "display_name": "SQL Query",
+            "documentation": "",
+            "edited": true,
+            "field_order": [],
+            "frozen": false,
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [
+              "Message"
+            ],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": null,
+                "name": "message",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "CustomComponent",
+              "add_error": {
+                "advanced": false,
+                "display_name": "Add Error Details",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "Append error details to the result if an error occurs.",
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "add_error",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# Import necessary modules from langchain community and langflow\nfrom langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool\nfrom langchain_community.utilities import SQLDatabase\nfrom langflow.custom import CustomComponent\n# Import Text and Message types for field definitions\nfrom langflow.field_typing import Text, Message  # Added Message\n\nclass SQLExecutorComponent(CustomComponent):\n    \"\"\"\n    A Langflow custom component to execute SQL queries against a database.\n    \"\"\"\n    display_name = \"SQL Query\"\n    description = \"Execute SQL query.\"\n    name = \"SQLExecutor\"\n    beta: bool = True  # Indicate if the component is in beta\n\n    def build_config(self):\n        \"\"\"\n        Defines the configuration fields for the component in the Langflow UI.\n        \"\"\"\n        return {\n            \"database_url\": {\n                \"display_name\": \"Database URL\",\n                \"info\": \"The URL of the database (e.g., postgresql://user:password@host:port/database).\",\n                \"required\": True, # Mark database URL as required\n            },\n            \"query\": { # Added query field to config\n                \"display_name\": \"SQL Query\",\n                \"info\": \"The SQL query to execute.\",\n                \"required\": True, # Mark query as required\n            },\n            \"include_columns\": {\n                \"display_name\": \"Include Columns\",\n                \"info\": \"Include column names in the result (if applicable).\",\n                \"field_type\": \"bool\", # Specify field type\n                \"default\": False, # Provide a default value\n            },\n            \"passthrough\": {\n                \"display_name\": \"Passthrough on Error\",\n                \"info\": \"If an error occurs during query execution, return the original query instead of raising an exception.\",\n                \"field_type\": \"bool\", # Specify field type\n                \"default\": False, # Provide a default value\n            },\n            \"add_error\": {\n                \"display_name\": \"Add Error Details\",\n                \"info\": \"Append error details to the result if an error occurs.\",\n                \"field_type\": \"bool\", # Specify field type\n                \"default\": False, # Provide a default value\n            },\n        }\n\n    def clean_up_uri(self, uri: str) -> str:\n        \"\"\"\n        Helper function to clean up database URI if needed (e.g., for postgresql).\n        Note: SQLDatabase might handle this internally now.\n        \"\"\"\n        if uri and uri.startswith(\"postgresql://\"):\n            uri = uri.replace(\"postgresql://\", \"postgres://\", 1) # Replace only the first occurrence\n        return uri.strip() if uri else \"\"\n\n    def build(\n        self,\n        query: str,\n        database_url: str,\n        *, # Make subsequent arguments keyword-only\n        include_columns: bool = False,\n        passthrough: bool = False,\n        add_error: bool = False,\n        **kwargs, # Accept arbitrary keyword arguments\n    ) -> Message: # Return type is a Langflow Message object\n        \"\"\"\n        Executes the SQL query against the specified database.\n\n        Args:\n            query: The SQL query string to execute.\n            database_url: The connection string for the database.\n            include_columns: Whether to include column names in the result.\n            passthrough: If True, return the query on error; otherwise, raise exception.\n            add_error: If True, append error details to the result on error.\n            **kwargs: Additional keyword arguments (currently unused).\n\n        Returns:\n            A Message object containing the query result or error information.\n        \"\"\"\n        _ = kwargs # Indicate kwargs are intentionally unused for now\n        error_message = None # Variable to store potential error string\n        result_text = \"\" # Initialize result text\n\n        if not database_url:\n            raise ValueError(\"Database URL cannot be empty.\")\n        if not query:\n            raise ValueError(\"SQL Query cannot be empty.\")\n\n        try:\n            # Clean up the URI (optional, might be handled by SQLDatabase)\n            # cleaned_url = self.clean_up_uri(database_url)\n            # Connect to the database\n            database = SQLDatabase.from_uri(database_url)\n\n        except Exception as e:\n            error_message = f\"Error connecting to the database: {e}\"\n            if not passthrough:\n                # Raise the error if passthrough is False\n                raise ValueError(error_message) from e\n            else:\n                # If passthrough is True, set result to the query and store error\n                result_text = query\n                error_details = repr(e) # Store detailed error representation\n\n        # Proceed only if the database connection was successful (no error_message yet)\n        if error_message is None:\n            try:\n                # Initialize the Langchain SQL Database tool\n                tool = QuerySQLDataBaseTool(db=database)\n                # Execute the query using the tool\n                tool_result = tool.run(query, include_columns=include_columns)\n                # Ensure the result is a string\n                result_text = str(tool_result)\n                self.status = \"Query executed successfully.\" # Update component status\n\n            except Exception as e:\n                # Handle errors during query execution\n                error_details = repr(e) # Get detailed error representation\n                self.status = f\"Error executing query: {e}\" # Update status with error\n                if not passthrough:\n                    # Re-raise the exception if passthrough is False\n                    raise\n                else:\n                    # If passthrough is True, store the error message\n                    error_message = f\"Error executing query: {e}\"\n                    # Result text might be the query itself or empty depending on preference\n                    result_text = query # Or potentially \"\" if preferred on execution error\n\n        # Construct the final output text based on flags\n        final_output_text = result_text\n\n        # Append error details if add_error is True and an error occurred\n        if add_error and (error_message or 'error_details' in locals()):\n            error_info = error_message or error_details\n            # Append error and original query for context\n            final_output_text = f\"{final_output_text}\\n\\n--- Error ---\\n{error_info}\\n\\n--- Original Query ---\\n{query}\"\n        elif error_message and passthrough and not add_error:\n             # If passthrough=True, add_error=False, and an error occurred,\n             # the result should just be the original query.\n             final_output_text = query\n\n\n        # Ensure the final output is a string before creating the Message\n        final_output_str = str(final_output_text)\n\n        # Wrap the final result string in a Message object\n        message_output = Message(text=final_output_str)\n        # Optionally set intermediate steps or other Message fields\n        # message_output.intermediate_steps = f\"Executed SQL Query:\\n{query}\\nResult:\\n{final_output_str}\"\n\n        return message_output\n"
+              },
+              "database_url": {
+                "advanced": false,
+                "display_name": "Database URL",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "The URL of the database (e.g., postgresql://user:password@host:port/database).",
+                "input_types": [
+                  "Text"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "database_url",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "postgresql://pgdemo_owner:npg_4zWdk5EbMmsS@ep-tiny-thunder-a4di3fcq-pooler.us-east-1.aws.neon.tech/pgdemo?sslmode=require"
+              },
+              "include_columns": {
+                "advanced": false,
+                "display_name": "Include Columns",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "Include column names in the result (if applicable).",
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "include_columns",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "bool",
+                "value": true
+              },
+              "passthrough": {
+                "advanced": false,
+                "display_name": "Passthrough on Error",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "If an error occurs during query execution, return the original query instead of raising an exception.",
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "passthrough",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "bool",
+                "value": true
+              },
+              "query": {
+                "advanced": false,
+                "display_name": "SQL Query",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "The SQL query to execute.",
+                "input_types": [
+                  "Text"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "query",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SQLExecutor"
+        },
+        "dragging": false,
+        "id": "SQLExecutor-0aTtW",
+        "measured": {
+          "height": 549,
+          "width": 400
+        },
+        "position": {
+          "x": 4773.980494570143,
+          "y": -1898.711172340084
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SQLExecutor-fwO79",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": true,
+            "conditional_paths": [],
+            "custom_fields": {
+              "add_error": null,
+              "database_url": null,
+              "include_columns": null,
+              "passthrough": null,
+              "query": null
+            },
+            "description": "Execute SQL query.",
+            "display_name": "SQL Query",
+            "documentation": "",
+            "edited": true,
+            "field_order": [],
+            "frozen": false,
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [
+              "Message"
+            ],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": null,
+                "name": "message",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "CustomComponent",
+              "add_error": {
+                "advanced": false,
+                "display_name": "Add Error Details",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "Append error details to the result if an error occurs.",
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "add_error",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# Import necessary modules from langchain community and langflow\nfrom langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool\nfrom langchain_community.utilities import SQLDatabase\nfrom langflow.custom import CustomComponent\n# Import Text and Message types for field definitions\nfrom langflow.field_typing import Text, Message  # Added Message\n\nclass SQLExecutorComponent(CustomComponent):\n    \"\"\"\n    A Langflow custom component to execute SQL queries against a database.\n    \"\"\"\n    display_name = \"SQL Query\"\n    description = \"Execute SQL query.\"\n    name = \"SQLExecutor\"\n    beta: bool = True  # Indicate if the component is in beta\n\n    def build_config(self):\n        \"\"\"\n        Defines the configuration fields for the component in the Langflow UI.\n        \"\"\"\n        return {\n            \"database_url\": {\n                \"display_name\": \"Database URL\",\n                \"info\": \"The URL of the database (e.g., postgresql://user:password@host:port/database).\",\n                \"required\": True, # Mark database URL as required\n            },\n            \"query\": { # Added query field to config\n                \"display_name\": \"SQL Query\",\n                \"info\": \"The SQL query to execute.\",\n                \"required\": True, # Mark query as required\n            },\n            \"include_columns\": {\n                \"display_name\": \"Include Columns\",\n                \"info\": \"Include column names in the result (if applicable).\",\n                \"field_type\": \"bool\", # Specify field type\n                \"default\": False, # Provide a default value\n            },\n            \"passthrough\": {\n                \"display_name\": \"Passthrough on Error\",\n                \"info\": \"If an error occurs during query execution, return the original query instead of raising an exception.\",\n                \"field_type\": \"bool\", # Specify field type\n                \"default\": False, # Provide a default value\n            },\n            \"add_error\": {\n                \"display_name\": \"Add Error Details\",\n                \"info\": \"Append error details to the result if an error occurs.\",\n                \"field_type\": \"bool\", # Specify field type\n                \"default\": False, # Provide a default value\n            },\n        }\n\n    def clean_up_uri(self, uri: str) -> str:\n        \"\"\"\n        Helper function to clean up database URI if needed (e.g., for postgresql).\n        Note: SQLDatabase might handle this internally now.\n        \"\"\"\n        if uri and uri.startswith(\"postgresql://\"):\n            uri = uri.replace(\"postgresql://\", \"postgres://\", 1) # Replace only the first occurrence\n        return uri.strip() if uri else \"\"\n\n    def build(\n        self,\n        query: str,\n        database_url: str,\n        *, # Make subsequent arguments keyword-only\n        include_columns: bool = False,\n        passthrough: bool = False,\n        add_error: bool = False,\n        **kwargs, # Accept arbitrary keyword arguments\n    ) -> Message: # Return type is a Langflow Message object\n        \"\"\"\n        Executes the SQL query against the specified database.\n\n        Args:\n            query: The SQL query string to execute.\n            database_url: The connection string for the database.\n            include_columns: Whether to include column names in the result.\n            passthrough: If True, return the query on error; otherwise, raise exception.\n            add_error: If True, append error details to the result on error.\n            **kwargs: Additional keyword arguments (currently unused).\n\n        Returns:\n            A Message object containing the query result or error information.\n        \"\"\"\n        _ = kwargs # Indicate kwargs are intentionally unused for now\n        error_message = None # Variable to store potential error string\n        result_text = \"\" # Initialize result text\n\n        if not database_url:\n            raise ValueError(\"Database URL cannot be empty.\")\n        if not query:\n            raise ValueError(\"SQL Query cannot be empty.\")\n\n        try:\n            # Clean up the URI (optional, might be handled by SQLDatabase)\n            # cleaned_url = self.clean_up_uri(database_url)\n            # Connect to the database\n            database = SQLDatabase.from_uri(database_url)\n\n        except Exception as e:\n            error_message = f\"Error connecting to the database: {e}\"\n            if not passthrough:\n                # Raise the error if passthrough is False\n                raise ValueError(error_message) from e\n            else:\n                # If passthrough is True, set result to the query and store error\n                result_text = query\n                error_details = repr(e) # Store detailed error representation\n\n        # Proceed only if the database connection was successful (no error_message yet)\n        if error_message is None:\n            try:\n                # Initialize the Langchain SQL Database tool\n                tool = QuerySQLDataBaseTool(db=database)\n                # Execute the query using the tool\n                tool_result = tool.run(query, include_columns=include_columns)\n                # Ensure the result is a string\n                result_text = str(tool_result)\n                self.status = \"Query executed successfully.\" # Update component status\n\n            except Exception as e:\n                # Handle errors during query execution\n                error_details = repr(e) # Get detailed error representation\n                self.status = f\"Error executing query: {e}\" # Update status with error\n                if not passthrough:\n                    # Re-raise the exception if passthrough is False\n                    raise\n                else:\n                    # If passthrough is True, store the error message\n                    error_message = f\"Error executing query: {e}\"\n                    # Result text might be the query itself or empty depending on preference\n                    result_text = query # Or potentially \"\" if preferred on execution error\n\n        # Construct the final output text based on flags\n        final_output_text = result_text\n\n        # Append error details if add_error is True and an error occurred\n        if add_error and (error_message or 'error_details' in locals()):\n            error_info = error_message or error_details\n            # Append error and original query for context\n            final_output_text = f\"{final_output_text}\\n\\n--- Error ---\\n{error_info}\\n\\n--- Original Query ---\\n{query}\"\n        elif error_message and passthrough and not add_error:\n             # If passthrough=True, add_error=False, and an error occurred,\n             # the result should just be the original query.\n             final_output_text = query\n\n\n        # Ensure the final output is a string before creating the Message\n        final_output_str = str(final_output_text)\n\n        # Wrap the final result string in a Message object\n        message_output = Message(text=final_output_str)\n        # Optionally set intermediate steps or other Message fields\n        # message_output.intermediate_steps = f\"Executed SQL Query:\\n{query}\\nResult:\\n{final_output_str}\"\n\n        return message_output\n"
+              },
+              "database_url": {
+                "advanced": false,
+                "display_name": "Database URL",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "The URL of the database (e.g., postgresql://user:password@host:port/database).",
+                "input_types": [
+                  "Text"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "database_url",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "postgresql://pgdemo_owner:npg_4zWdk5EbMmsS@ep-tiny-thunder-a4di3fcq-pooler.us-east-1.aws.neon.tech/pgdemo?sslmode=require"
+              },
+              "include_columns": {
+                "advanced": false,
+                "display_name": "Include Columns",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "Include column names in the result (if applicable).",
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "include_columns",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "bool",
+                "value": true
+              },
+              "passthrough": {
+                "advanced": false,
+                "display_name": "Passthrough on Error",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "If an error occurs during query execution, return the original query instead of raising an exception.",
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "passthrough",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "bool",
+                "value": true
+              },
+              "query": {
+                "advanced": false,
+                "display_name": "SQL Query",
+                "dynamic": false,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "The SQL query to execute.",
+                "input_types": [
+                  "Text"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": false,
+                "name": "query",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SQLExecutor"
+        },
+        "dragging": false,
+        "id": "SQLExecutor-fwO79",
+        "measured": {
+          "height": 549,
+          "width": 400
+        },
+        "position": {
+          "x": 1357.2214793431208,
+          "y": -2311.8943047211824
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "PredictionGuardModel-yVupe",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "category": "models",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generates text using Prediction Guard LLMs.",
+            "display_name": "Prediction Guard",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "max_tokens",
+              "model_kwargs",
+              "json_mode",
+              "model_name",
+              "api_key",
+              "temperature",
+              "seed",
+              "max_retries",
+              "timeout"
+            ],
+            "frozen": false,
+            "icon": "PredictionGuard",
+            "key": "PredictionGuardModel",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "text_response",
+                "name": "text_output",
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "method": "build_model",
+                "name": "model_output",
+                "required_inputs": [
+                  "api_key",
+                  "model_name"
+                ],
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.007568328950209746,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Prediction Guard API Key",
+                "dynamic": false,
+                "info": "The Prediction Guard API Key to use.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "edpgtoken"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langchain_openai import ChatOpenAI\nfrom pydantic.v1 import SecretStr\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.base.models.openai_constants import OPENAI_MODEL_NAMES\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.inputs import (\n    BoolInput,\n    DictInput,\n    IntInput,\n    SecretStrInput,\n    SliderInput,\n    StrInput,\n)\n\nPG_MODELS = [\"Hermes-3-Llama-3.1-70B\", \"Hermes-3-Llama-3.1-8B\"]\n\n\nclass PredictionGuardComponent(LCModelComponent):\n    display_name = \"Prediction Guard\"\n    description = \"Generates text using Prediction Guard LLMs.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardModel\"\n\n    inputs = [\n        *LCModelComponent._base_inputs,\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            advanced=True,\n            info=\"The maximum number of tokens to generate. Set to 0 for unlimited tokens.\",\n            range_spec=RangeSpec(min=0, max=128000),\n        ),\n        DictInput(\n            name=\"model_kwargs\",\n            display_name=\"Model Kwargs\",\n            advanced=True,\n            info=\"Additional keyword arguments to pass to the model.\",\n        ),\n        BoolInput(\n            name=\"json_mode\",\n            display_name=\"JSON Mode\",\n            advanced=True,\n            info=\"If True, it will output JSON regardless of passing a schema.\",\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            info=\"The model to use in the chat request. See more at docs.predictionguard.com.\",\n            advanced=False,\n            value=\"Hermes-3-Llama-3.1-70B\",\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Prediction Guard API Key\",\n            info=\"The Prediction Guard API Key to use.\",\n            advanced=False,\n            required=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n        ),\n        IntInput(\n            name=\"seed\",\n            display_name=\"Seed\",\n            info=\"The seed controls the reproducibility of the job.\",\n            advanced=True,\n            value=1,\n        ),\n        IntInput(\n            name=\"max_retries\",\n            display_name=\"Max Retries\",\n            info=\"The maximum number of retries to make when generating.\",\n            advanced=True,\n            value=5,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"The timeout for requests to OpenAI completion API.\",\n            advanced=True,\n            value=700,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        openai_api_key = self.api_key\n        temperature = self.temperature\n        model_name = self.model_name\n        max_tokens = self.max_tokens\n        model_kwargs = self.model_kwargs or {}\n        openai_api_base = \"https://api.predictionguard.com\"\n        json_mode = self.json_mode\n        seed = self.seed\n        max_retries = self.max_retries\n        timeout = self.timeout\n\n        api_key = (\n            SecretStr(openai_api_key).get_secret_value() if openai_api_key else None\n        )\n        output = ChatOpenAI(\n            max_tokens=max_tokens or None,\n            model_kwargs=model_kwargs,\n            model=model_name,\n            base_url=openai_api_base,\n            api_key=api_key,\n            temperature=temperature if temperature is not None else 0.1,\n            seed=seed,\n            max_retries=max_retries,\n            request_timeout=timeout,\n        )\n        if json_mode:\n            output = output.bind(response_format={\"type\": \"json_object\"})\n\n        return output\n\n    def _get_exception_message(self, e: Exception):\n        try:\n            from openai import BadRequestError\n        except ImportError:\n            return None\n        if isinstance(e, BadRequestError):\n            message = e.body.get(\"message\")\n            if message:\n                return message\n        return None\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "json_mode": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "JSON Mode",
+                "dynamic": false,
+                "info": "If True, it will output JSON regardless of passing a schema.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "json_mode",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "max_retries": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Retries",
+                "dynamic": false,
+                "info": "The maximum number of retries to make when generating.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_retries",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 5
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate. Set to 0 for unlimited tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 0,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "model_kwargs": {
+                "_input_type": "DictInput",
+                "advanced": true,
+                "display_name": "Model Kwargs",
+                "dynamic": false,
+                "info": "Additional keyword arguments to pass to the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "model_kwargs",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "dict",
+                "value": {}
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Model Name",
+                "dynamic": false,
+                "info": "The model to use in the chat request. See more at docs.predictionguard.com.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Hermes-3-Llama-3.1-70B"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Seed",
+                "dynamic": false,
+                "info": "The seed controls the reproducibility of the job.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "You will receive a table name.\nReturn one SQL statement that:\n\nLists all columns of the table, and\n\nRetrieves the first five rows.\n\nOutput only the SQL query—no extra text or commentary."
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.1
+              },
+              "timeout": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Timeout",
+                "dynamic": false,
+                "info": "The timeout for requests to OpenAI completion API.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "timeout",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 700
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "PredictionGuardModel"
+        },
+        "dragging": false,
+        "id": "PredictionGuardModel-yVupe",
+        "measured": {
+          "height": 769,
+          "width": 400
+        },
+        "position": {
+          "x": 197.4229867588457,
+          "y": -1110.9173867445259
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-AMQLN",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "category": "inputs",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get text inputs from the Playground.",
+            "display_name": "Text Input",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "key": "TextInput",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.000045030081906763545,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get text inputs from the Playground.\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Message\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "testing_sql"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-AMQLN",
+        "measured": {
+          "height": 286,
+          "width": 400
+        },
+        "position": {
+          "x": -819.423517600159,
+          "y": 100.05287997876749
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SQLQueryInput-Em9h9",
+          "node": {
+            "base_classes": [
+              "Text"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Input SQL queries for database execution.",
+            "display_name": "SQL Query Input",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "query"
+            ],
+            "frozen": false,
+            "icon": "database",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Query",
+                "hidden": false,
+                "method": "query_response",
+                "name": "text",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Text",
+                "tool_mode": true,
+                "types": [
+                  "Text"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.field_typing import Text\n\nclass SQLQueryInputComponent(TextComponent):\n    display_name = \"SQL Query Input\"\n    description = \"Input SQL queries for database execution.\"\n    icon = \"database\"\n    name = \"SQLQueryInput\"\n    inputs = [\n        MultilineInput(\n            name=\"query\",\n            display_name=\"SQL Query\",\n            info=\"SQL query to be executed against a database.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Query\", name=\"text\", method=\"query_response\"),\n    ]\n    \n    def query_response(self) -> Text:\n        return self.query"
+              },
+              "query": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "SQL Query",
+                "dynamic": false,
+                "info": "SQL query to be executed against a database.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "query",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "asdasd"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SQLQueryInput"
+        },
+        "dragging": false,
+        "id": "SQLQueryInput-Em9h9",
+        "measured": {
+          "height": 286,
+          "width": 400
+        },
+        "position": {
+          "x": 598.8397628005854,
+          "y": -1964.470165242432
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatInput-mvgFD",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "category": "inputs",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "files",
+              "background_color",
+              "chat_icon",
+              "text_color"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "key": "ChatInput",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.0020353564437605998,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom langflow.schema.message import Message\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        background_color = self.background_color\n        text_color = self.text_color\n        icon = self.chat_icon\n\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=self.session_id,\n            files=self.files,\n            properties={\n                \"background_color\": background_color,\n                \"text_color\": text_color,\n                \"icon\": icon,\n            },\n        )\n        if self.session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-mvgFD",
+        "measured": {
+          "height": 82,
+          "width": 240
+        },
+        "position": {
+          "x": 1836.1128928738415,
+          "y": -1947.7456130581304
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "PredictionGuardModel-IL4oe",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "category": "models",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generates text using Prediction Guard LLMs.",
+            "display_name": "Prediction Guard",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "max_tokens",
+              "model_kwargs",
+              "json_mode",
+              "model_name",
+              "api_key",
+              "temperature",
+              "seed",
+              "max_retries",
+              "timeout"
+            ],
+            "frozen": false,
+            "icon": "PredictionGuard",
+            "key": "PredictionGuardModel",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "text_response",
+                "name": "text_output",
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "method": "build_model",
+                "name": "model_output",
+                "required_inputs": [
+                  "api_key",
+                  "model_name"
+                ],
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.007568328950209746,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Prediction Guard API Key",
+                "dynamic": false,
+                "info": "The Prediction Guard API Key to use.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "edpgtoken"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langchain_openai import ChatOpenAI\nfrom pydantic.v1 import SecretStr\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.base.models.openai_constants import OPENAI_MODEL_NAMES\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.inputs import (\n    BoolInput,\n    DictInput,\n    IntInput,\n    SecretStrInput,\n    SliderInput,\n    StrInput,\n)\n\nPG_MODELS = [\"Hermes-3-Llama-3.1-70B\", \"Hermes-3-Llama-3.1-8B\"]\n\n\nclass PredictionGuardComponent(LCModelComponent):\n    display_name = \"Prediction Guard\"\n    description = \"Generates text using Prediction Guard LLMs.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardModel\"\n\n    inputs = [\n        *LCModelComponent._base_inputs,\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            advanced=True,\n            info=\"The maximum number of tokens to generate. Set to 0 for unlimited tokens.\",\n            range_spec=RangeSpec(min=0, max=128000),\n        ),\n        DictInput(\n            name=\"model_kwargs\",\n            display_name=\"Model Kwargs\",\n            advanced=True,\n            info=\"Additional keyword arguments to pass to the model.\",\n        ),\n        BoolInput(\n            name=\"json_mode\",\n            display_name=\"JSON Mode\",\n            advanced=True,\n            info=\"If True, it will output JSON regardless of passing a schema.\",\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            info=\"The model to use in the chat request. See more at docs.predictionguard.com.\",\n            advanced=False,\n            value=\"Hermes-3-Llama-3.1-70B\",\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Prediction Guard API Key\",\n            info=\"The Prediction Guard API Key to use.\",\n            advanced=False,\n            required=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n        ),\n        IntInput(\n            name=\"seed\",\n            display_name=\"Seed\",\n            info=\"The seed controls the reproducibility of the job.\",\n            advanced=True,\n            value=1,\n        ),\n        IntInput(\n            name=\"max_retries\",\n            display_name=\"Max Retries\",\n            info=\"The maximum number of retries to make when generating.\",\n            advanced=True,\n            value=5,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"The timeout for requests to OpenAI completion API.\",\n            advanced=True,\n            value=700,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        openai_api_key = self.api_key\n        temperature = self.temperature\n        model_name = self.model_name\n        max_tokens = self.max_tokens\n        model_kwargs = self.model_kwargs or {}\n        openai_api_base = \"https://api.predictionguard.com\"\n        json_mode = self.json_mode\n        seed = self.seed\n        max_retries = self.max_retries\n        timeout = self.timeout\n\n        api_key = (\n            SecretStr(openai_api_key).get_secret_value() if openai_api_key else None\n        )\n        output = ChatOpenAI(\n            max_tokens=max_tokens or None,\n            model_kwargs=model_kwargs,\n            model=model_name,\n            base_url=openai_api_base,\n            api_key=api_key,\n            temperature=temperature if temperature is not None else 0.1,\n            seed=seed,\n            max_retries=max_retries,\n            request_timeout=timeout,\n        )\n        if json_mode:\n            output = output.bind(response_format={\"type\": \"json_object\"})\n\n        return output\n\n    def _get_exception_message(self, e: Exception):\n        try:\n            from openai import BadRequestError\n        except ImportError:\n            return None\n        if isinstance(e, BadRequestError):\n            message = e.body.get(\"message\")\n            if message:\n                return message\n        return None\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "json_mode": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "JSON Mode",
+                "dynamic": false,
+                "info": "If True, it will output JSON regardless of passing a schema.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "json_mode",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "max_retries": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Retries",
+                "dynamic": false,
+                "info": "The maximum number of retries to make when generating.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_retries",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 5
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate. Set to 0 for unlimited tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 0,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "model_kwargs": {
+                "_input_type": "DictInput",
+                "advanced": true,
+                "display_name": "Model Kwargs",
+                "dynamic": false,
+                "info": "Additional keyword arguments to pass to the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "model_kwargs",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "dict",
+                "value": {}
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Model Name",
+                "dynamic": false,
+                "info": "The model to use in the chat request. See more at docs.predictionguard.com.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Hermes-3-Llama-3.1-70B"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Seed",
+                "dynamic": false,
+                "info": "The seed controls the reproducibility of the job.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "You are SQL QUERY generator you generate valid sql queries based on the info provided. DO NOT INCLUDE ANYTHING BESIDES THE SQL QUERY"
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.1
+              },
+              "timeout": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Timeout",
+                "dynamic": false,
+                "info": "The timeout for requests to OpenAI completion API.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "timeout",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 700
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "PredictionGuardModel"
+        },
+        "dragging": false,
+        "id": "PredictionGuardModel-IL4oe",
+        "measured": {
+          "height": 769,
+          "width": 400
+        },
+        "position": {
+          "x": 3350.201093232443,
+          "y": -2198.441316354739
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt-d1tOu",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "Data",
+                "tablename",
+                "request"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Prompt",
+            "documentation": "",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt Message",
+                "hidden": false,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "template": {
+              "Data": {
+                "advanced": false,
+                "display_name": "Data",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "Data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.prompts.api_utils import process_prompt_template\nfrom langflow.custom import Component\nfrom langflow.inputs.inputs import DefaultPromptField\nfrom langflow.io import MessageTextInput, Output, PromptInput\nfrom langflow.schema.message import Message\nfrom langflow.template.utils import update_template_values\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt Message\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    async def build_prompt(self) -> Message:\n        prompt = Message.from_template(**self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        custom_fields = frontend_node[\"custom_fields\"]\n        frontend_node_template = frontend_node[\"template\"]\n        _ = process_prompt_template(\n            template=prompt_template,\n            name=\"template\",\n            custom_fields=custom_fields,\n            frontend_node_template=frontend_node_template,\n        )\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        # Kept it duplicated for backwards compatibility\n        _ = process_prompt_template(\n            template=template,\n            name=\"template\",\n            custom_fields=frontend_node[\"custom_fields\"],\n            frontend_node_template=frontend_node[\"template\"],\n        )\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "request": {
+                "advanced": false,
+                "display_name": "request",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "request",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "tablename": {
+                "advanced": false,
+                "display_name": "tablename",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "tablename",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "prompt",
+                "value": "You are an SQL-query generator.\nGiven the context below, return a single, syntactically-correct SQL statement that satisfies the user’s request.\n\nPreview of the table (first five rows plus column names):\n{Data}\n\nTable name: {tablename}\n\nUser request: {request}\n\nGenerate the appropriate SQL query only—no explanations or commentary."
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt"
+        },
+        "dragging": false,
+        "id": "Prompt-d1tOu",
+        "measured": {
+          "height": 696,
+          "width": 400
+        },
+        "position": {
+          "x": 2664.9630415985416,
+          "y": -2030.2357652032929
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "PredictionGuardModel-wLu97",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "category": "models",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generates text using Prediction Guard LLMs.",
+            "display_name": "Prediction Guard",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "max_tokens",
+              "model_kwargs",
+              "json_mode",
+              "model_name",
+              "api_key",
+              "temperature",
+              "seed",
+              "max_retries",
+              "timeout"
+            ],
+            "frozen": false,
+            "icon": "PredictionGuard",
+            "key": "PredictionGuardModel",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "text_response",
+                "name": "text_output",
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "method": "build_model",
+                "name": "model_output",
+                "required_inputs": [
+                  "api_key",
+                  "model_name"
+                ],
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.007568328950209746,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Prediction Guard API Key",
+                "dynamic": false,
+                "info": "The Prediction Guard API Key to use.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "edpgtoken"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langchain_openai import ChatOpenAI\nfrom pydantic.v1 import SecretStr\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.base.models.openai_constants import OPENAI_MODEL_NAMES\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.inputs import (\n    BoolInput,\n    DictInput,\n    IntInput,\n    SecretStrInput,\n    SliderInput,\n    StrInput,\n)\n\nPG_MODELS = [\"Hermes-3-Llama-3.1-70B\", \"Hermes-3-Llama-3.1-8B\"]\n\n\nclass PredictionGuardComponent(LCModelComponent):\n    display_name = \"Prediction Guard\"\n    description = \"Generates text using Prediction Guard LLMs.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardModel\"\n\n    inputs = [\n        *LCModelComponent._base_inputs,\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            advanced=True,\n            info=\"The maximum number of tokens to generate. Set to 0 for unlimited tokens.\",\n            range_spec=RangeSpec(min=0, max=128000),\n        ),\n        DictInput(\n            name=\"model_kwargs\",\n            display_name=\"Model Kwargs\",\n            advanced=True,\n            info=\"Additional keyword arguments to pass to the model.\",\n        ),\n        BoolInput(\n            name=\"json_mode\",\n            display_name=\"JSON Mode\",\n            advanced=True,\n            info=\"If True, it will output JSON regardless of passing a schema.\",\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            info=\"The model to use in the chat request. See more at docs.predictionguard.com.\",\n            advanced=False,\n            value=\"Hermes-3-Llama-3.1-70B\",\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Prediction Guard API Key\",\n            info=\"The Prediction Guard API Key to use.\",\n            advanced=False,\n            required=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n        ),\n        IntInput(\n            name=\"seed\",\n            display_name=\"Seed\",\n            info=\"The seed controls the reproducibility of the job.\",\n            advanced=True,\n            value=1,\n        ),\n        IntInput(\n            name=\"max_retries\",\n            display_name=\"Max Retries\",\n            info=\"The maximum number of retries to make when generating.\",\n            advanced=True,\n            value=5,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"The timeout for requests to OpenAI completion API.\",\n            advanced=True,\n            value=700,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:\n        openai_api_key = self.api_key\n        temperature = self.temperature\n        model_name = self.model_name\n        max_tokens = self.max_tokens\n        model_kwargs = self.model_kwargs or {}\n        openai_api_base = \"https://api.predictionguard.com\"\n        json_mode = self.json_mode\n        seed = self.seed\n        max_retries = self.max_retries\n        timeout = self.timeout\n\n        api_key = (\n            SecretStr(openai_api_key).get_secret_value() if openai_api_key else None\n        )\n        output = ChatOpenAI(\n            max_tokens=max_tokens or None,\n            model_kwargs=model_kwargs,\n            model=model_name,\n            base_url=openai_api_base,\n            api_key=api_key,\n            temperature=temperature if temperature is not None else 0.1,\n            seed=seed,\n            max_retries=max_retries,\n            request_timeout=timeout,\n        )\n        if json_mode:\n            output = output.bind(response_format={\"type\": \"json_object\"})\n\n        return output\n\n    def _get_exception_message(self, e: Exception):\n        try:\n            from openai import BadRequestError\n        except ImportError:\n            return None\n        if isinstance(e, BadRequestError):\n            message = e.body.get(\"message\")\n            if message:\n                return message\n        return None\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "json_mode": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "JSON Mode",
+                "dynamic": false,
+                "info": "If True, it will output JSON regardless of passing a schema.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "json_mode",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "max_retries": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Retries",
+                "dynamic": false,
+                "info": "The maximum number of retries to make when generating.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_retries",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 5
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate. Set to 0 for unlimited tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 0,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "model_kwargs": {
+                "_input_type": "DictInput",
+                "advanced": true,
+                "display_name": "Model Kwargs",
+                "dynamic": false,
+                "info": "Additional keyword arguments to pass to the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "model_kwargs",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "dict",
+                "value": {}
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Model Name",
+                "dynamic": false,
+                "info": "The model to use in the chat request. See more at docs.predictionguard.com.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Hermes-3-Llama-3.1-70B"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Seed",
+                "dynamic": false,
+                "info": "The seed controls the reproducibility of the job.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Please generate plain text explanation of the query results. "
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.1
+              },
+              "timeout": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Timeout",
+                "dynamic": false,
+                "info": "The timeout for requests to OpenAI completion API.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "timeout",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 700
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "PredictionGuardModel"
+        },
+        "dragging": false,
+        "id": "PredictionGuardModel-wLu97",
+        "measured": {
+          "height": 769,
+          "width": 400
+        },
+        "position": {
+          "x": 6441.145452140836,
+          "y": -1233.428361462447
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt-kTw6i",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "tablename",
+                "old",
+                "Question",
+                "query",
+                "new"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Prompt",
+            "documentation": "",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt Message",
+                "hidden": false,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "template": {
+              "Question": {
+                "advanced": false,
+                "display_name": "Question",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "Question",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.prompts.api_utils import process_prompt_template\nfrom langflow.custom import Component\nfrom langflow.inputs.inputs import DefaultPromptField\nfrom langflow.io import MessageTextInput, Output, PromptInput\nfrom langflow.schema.message import Message\nfrom langflow.template.utils import update_template_values\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt Message\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    async def build_prompt(self) -> Message:\n        prompt = Message.from_template(**self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        custom_fields = frontend_node[\"custom_fields\"]\n        frontend_node_template = frontend_node[\"template\"]\n        _ = process_prompt_template(\n            template=prompt_template,\n            name=\"template\",\n            custom_fields=custom_fields,\n            frontend_node_template=frontend_node_template,\n        )\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        # Kept it duplicated for backwards compatibility\n        _ = process_prompt_template(\n            template=template,\n            name=\"template\",\n            custom_fields=frontend_node[\"custom_fields\"],\n            frontend_node_template=frontend_node[\"template\"],\n        )\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "new": {
+                "advanced": false,
+                "display_name": "new",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "new",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "old": {
+                "advanced": false,
+                "display_name": "old",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "old",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "query": {
+                "advanced": false,
+                "display_name": "query",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "query",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "tablename": {
+                "advanced": false,
+                "display_name": "tablename",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "tablename",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "prompt",
+                "value": "Write a concise, plain-English explanation of what the latest query results reveal.\n\nInputs\n\nTable: {tablename}\n\nPrior context (earlier sample or description just helps you understand the database.): {old}\n\nUser’s question: {Question}\n\nSQL run: {query}\n\nLatest results: {new}\n\nGuidelines\n\nFocus on how the new results answer the user’s question and, where helpful, note the context you received from the earlier request.\n\nDo not include SQL, code blocks, or extra formatting—just the explanatory text."
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt"
+        },
+        "dragging": false,
+        "id": "Prompt-kTw6i",
+        "measured": {
+          "height": 903,
+          "width": 400
+        },
+        "position": {
+          "x": 5812.120184240268,
+          "y": -1669.8304147291183
+        },
+        "selected": true,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "note-bFlwL",
+          "node": {
+            "description": "Please upload your CSV data here ONCE. Do not put any important data in this database. It will be deleted after the event. You can choose a random target table name.\n\nThe CSV must:\n\n1. Have proper headers in the first row (column names).\n\n2. Have clean, readable data.\n\nExample CSV format (it can be anything just make sure it is formatted similar to this):\n\nmovie_title,release_date,box_office\nThe Great Adventure,2024-01-15,150000000\nSpace Odyssey,2024-02-20,210000000\nMystery Island,2024-03-10,98000000",
+            "display_name": "",
+            "documentation": "",
+            "template": {}
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "id": "note-bFlwL",
+        "measured": {
+          "height": 581,
+          "width": 331
+        },
+        "position": {
+          "x": -1392.2183715445112,
+          "y": -1946.4511254297156
+        },
+        "selected": false,
+        "type": "noteNode"
+      },
+      {
+        "data": {
+          "id": "note-wFjjh",
+          "node": {
+            "description": "READ ME:\n\n\n1. Upload a relational database via a CSV file so you can test your own data (please do not upload real customer data). This data will be deleted after the event. (Provide a random database name)\n2. Provide your PG api key in all of the Prediction Guard components. \n3. Go to the playground and ask a question that can be answered with a SQL query \n4. The flow will then query your database to check for the headers and few records. It will then generate the new SQL query for you based on your request (for example how many movies are in our database?)\n5. The Model will then tell you the results of the query in plain language. ",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "rose"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 406,
+        "id": "note-wFjjh",
+        "measured": {
+          "height": 406,
+          "width": 584
+        },
+        "position": {
+          "x": -2469.7670392816344,
+          "y": -613.1471391216252
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 577
+      }
+    ],
+    "viewport": {
+      "x": -561.1137413615684,
+      "y": 1019.2380267528486,
+      "zoom": 0.3708223463221992
+    }
+  },
+  "description": "Load your data for chat context with Retrieval Augmented Generation using Prediction Guard.",
+  "endpoint_name": null,
+  "folder_id": "2e744787-2fe4-4310-aa0e-987dc41a7ad1",
+  "fs_path": null,
+  "gradient": null,
+  "icon": null,
+  "icon_bg_color": null,
+  "id": "8870dcaf-2894-45e0-af1d-7e262d2bc071",
+  "is_component": false,
+  "locked": false,
+  "name": "Relational SQL Query - PG",
+  "tags": [
+    "openai",
+    "astradb",
+    "rag",
+    "q-a"
+  ],
+  "updated_at": "2025-04-29T12:35:58+00:00",
+  "user_id": "4cbc23a2-1ab8-4d36-9123-e9583cc8898c",
+  "webhook": false
+}
