@@ -1,5 +1,4 @@
 {
-  "access_type": "PRIVATE",
   "data": {
     "edges": [
       {
@@ -8,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-v639R",
+            "id": "ChatInput-c9WsQ",
             "name": "message",
             "output_types": [
               "Message"
@@ -16,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "question",
-            "id": "Prompt-1BWE4",
+            "id": "Prompt-b7HXL",
             "inputTypes": [
               "Message",
               "Text"
@@ -24,12 +23,12 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-v639R{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v639Rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-1BWE4{œfieldNameœ:œquestionœ,œidœ:œPrompt-1BWE4œ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-c9WsQ{œdataTypeœ:œChatInputœ,œidœ:œChatInput-c9WsQœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-b7HXL{œfieldNameœ:œquestionœ,œidœ:œPrompt-b7HXLœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-v639R",
-        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-v639Rœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
-        "target": "Prompt-1BWE4",
-        "targetHandle": "{œfieldNameœ: œquestionœ, œidœ: œPrompt-1BWE4œ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
+        "source": "ChatInput-c9WsQ",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-c9WsQœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-b7HXL",
+        "targetHandle": "{œfieldNameœ:œquestionœ,œidœ:œPrompt-b7HXLœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -37,7 +36,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-FHDbh",
+            "id": "File-2qeDD",
             "name": "data",
             "output_types": [
               "Data"
@@ -45,7 +44,7 @@
           },
           "targetHandle": {
             "fieldName": "data_inputs",
-            "id": "SplitText-tOxbJ",
+            "id": "SplitText-rhE5o",
             "inputTypes": [
               "Data",
               "DataFrame"
@@ -53,12 +52,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-File-FHDbh{œdataTypeœ:œFileœ,œidœ:œFile-FHDbhœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-tOxbJ{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-tOxbJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-2qeDD{œdataTypeœ:œFileœ,œidœ:œFile-2qeDDœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-SplitText-rhE5o{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-rhE5oœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-FHDbh",
-        "sourceHandle": "{œdataTypeœ: œFileœ, œidœ: œFile-FHDbhœ, œnameœ: œdataœ, œoutput_typesœ: [œDataœ]}",
-        "target": "SplitText-tOxbJ",
-        "targetHandle": "{œfieldNameœ: œdata_inputsœ, œidœ: œSplitText-tOxbJœ, œinputTypesœ: [œDataœ, œDataFrameœ], œtypeœ: œotherœ}"
+        "source": "File-2qeDD",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-2qeDDœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SplitText-rhE5o",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-rhE5oœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -66,7 +65,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "parser",
-            "id": "parser-rPJPV",
+            "id": "parser-lVNrC",
             "name": "parsed_text",
             "output_types": [
               "Message"
@@ -74,7 +73,7 @@
           },
           "targetHandle": {
             "fieldName": "context",
-            "id": "Prompt-1BWE4",
+            "id": "Prompt-b7HXL",
             "inputTypes": [
               "Message",
               "Text"
@@ -82,97 +81,12 @@
             "type": "str"
           }
         },
-        "id": "reactflow__edge-parser-rPJPV{œdataTypeœ:œparserœ,œidœ:œparser-rPJPVœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-1BWE4{œfieldNameœ:œcontextœ,œidœ:œPrompt-1BWE4œ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-parser-lVNrC{œdataTypeœ:œparserœ,œidœ:œparser-lVNrCœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-b7HXL{œfieldNameœ:œcontextœ,œidœ:œPrompt-b7HXLœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "parser-rPJPV",
-        "sourceHandle": "{œdataTypeœ: œparserœ, œidœ: œparser-rPJPVœ, œnameœ: œparsed_textœ, œoutput_typesœ: [œMessageœ]}",
-        "target": "Prompt-1BWE4",
-        "targetHandle": "{œfieldNameœ: œcontextœ, œidœ: œPrompt-1BWE4œ, œinputTypesœ: [œMessageœ, œTextœ], œtypeœ: œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "ChatInput",
-            "id": "ChatInput-v639R",
-            "name": "message",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "search_query",
-            "id": "pgvector-JYFPX",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "query"
-          }
-        },
-        "id": "xy-edge__ChatInput-v639R{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v639Rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-pgvector-JYFPX{œfieldNameœ:œsearch_queryœ,œidœ:œpgvector-JYFPXœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}",
-        "selected": false,
-        "source": "ChatInput-v639R",
-        "sourceHandle": "{œdataTypeœ: œChatInputœ, œidœ: œChatInput-v639Rœ, œnameœ: œmessageœ, œoutput_typesœ: [œMessageœ]}",
-        "target": "pgvector-JYFPX",
-        "targetHandle": "{œfieldNameœ: œsearch_queryœ, œidœ: œpgvector-JYFPXœ, œinputTypesœ: [œMessageœ], œtypeœ: œqueryœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "PredictionGuardEmbeddings",
-            "id": "PredictionGuardEmbeddings-3eyc2",
-            "name": "embeddings",
-            "output_types": [
-              "Embeddings"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "embedding",
-            "id": "pgvector-JYFPX",
-            "inputTypes": [
-              "Embeddings"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__PredictionGuardEmbeddings-3eyc2{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-3eyc2œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-JYFPX{œfieldNameœ:œembeddingœ,œidœ:œpgvector-JYFPXœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "PredictionGuardEmbeddings-3eyc2",
-        "sourceHandle": "{œdataTypeœ: œPredictionGuardEmbeddingsœ, œidœ: œPredictionGuardEmbeddings-3eyc2œ, œnameœ: œembeddingsœ, œoutput_typesœ: [œEmbeddingsœ]}",
-        "target": "pgvector-JYFPX",
-        "targetHandle": "{œfieldNameœ: œembeddingœ, œidœ: œpgvector-JYFPXœ, œinputTypesœ: [œEmbeddingsœ], œtypeœ: œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "pgvector",
-            "id": "pgvector-JYFPX",
-            "name": "dataframe",
-            "output_types": [
-              "DataFrame"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_data",
-            "id": "parser-rPJPV",
-            "inputTypes": [
-              "DataFrame",
-              "Data"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__pgvector-JYFPX{œdataTypeœ:œpgvectorœ,œidœ:œpgvector-JYFPXœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-parser-rPJPV{œfieldNameœ:œinput_dataœ,œidœ:œparser-rPJPVœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "pgvector-JYFPX",
-        "sourceHandle": "{œdataTypeœ: œpgvectorœ, œidœ: œpgvector-JYFPXœ, œnameœ: œdataframeœ, œoutput_typesœ: [œDataFrameœ]}",
-        "target": "parser-rPJPV",
-        "targetHandle": "{œfieldNameœ: œinput_dataœ, œidœ: œparser-rPJPVœ, œinputTypesœ: [œDataFrameœ, œDataœ], œtypeœ: œotherœ}"
+        "source": "parser-lVNrC",
+        "sourceHandle": "{œdataTypeœ:œparserœ,œidœ:œparser-lVNrCœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-b7HXL",
+        "targetHandle": "{œfieldNameœ:œcontextœ,œidœ:œPrompt-b7HXLœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -180,7 +94,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Prompt",
-            "id": "Prompt-1BWE4",
+            "id": "Prompt-b7HXL",
             "name": "prompt",
             "output_types": [
               "Message"
@@ -188,19 +102,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "PredictionGuardModel-qpkzm",
+            "id": "PredictionGuardModel-8PiAY",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__Prompt-1BWE4{œdataTypeœ:œPromptœ,œidœ:œPrompt-1BWE4œ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-qpkzm{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-qpkzmœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__Prompt-b7HXL{œdataTypeœ:œPromptœ,œidœ:œPrompt-b7HXLœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-PredictionGuardModel-8PiAY{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-8PiAYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "Prompt-1BWE4",
-        "sourceHandle": "{œdataTypeœ: œPromptœ, œidœ: œPrompt-1BWE4œ, œnameœ: œpromptœ, œoutput_typesœ: [œMessageœ]}",
-        "target": "PredictionGuardModel-qpkzm",
-        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œPredictionGuardModel-qpkzmœ, œinputTypesœ: [œMessageœ], œtypeœ: œstrœ}"
+        "source": "Prompt-b7HXL",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-b7HXLœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "PredictionGuardModel-8PiAY",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œPredictionGuardModel-8PiAYœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -208,7 +122,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "PredictionGuardModel",
-            "id": "PredictionGuardModel-qpkzm",
+            "id": "PredictionGuardModel-8PiAY",
             "name": "text_output",
             "output_types": [
               "Message"
@@ -216,7 +130,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-TDbuC",
+            "id": "ChatOutput-YomT6",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -225,41 +139,12 @@
             "type": "str"
           }
         },
-        "id": "xy-edge__PredictionGuardModel-qpkzm{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-qpkzmœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-TDbuC{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-TDbuCœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__PredictionGuardModel-8PiAY{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-8PiAYœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-YomT6{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-YomT6œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "PredictionGuardModel-qpkzm",
-        "sourceHandle": "{œdataTypeœ: œPredictionGuardModelœ, œidœ: œPredictionGuardModel-qpkzmœ, œnameœ: œtext_outputœ, œoutput_typesœ: [œMessageœ]}",
-        "target": "ChatOutput-TDbuC",
-        "targetHandle": "{œfieldNameœ: œinput_valueœ, œidœ: œChatOutput-TDbuCœ, œinputTypesœ: [œDataœ, œDataFrameœ, œMessageœ], œtypeœ: œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "SplitText",
-            "id": "SplitText-tOxbJ",
-            "name": "chunks",
-            "output_types": [
-              "Data"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "ingest_data",
-            "id": "pgvector-mSYMJ",
-            "inputTypes": [
-              "Data",
-              "DataFrame"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__SplitText-tOxbJ{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-tOxbJœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-pgvector-mSYMJ{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-mSYMJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "SplitText-tOxbJ",
-        "sourceHandle": "{œdataTypeœ: œSplitTextœ, œidœ: œSplitText-tOxbJœ, œnameœ: œchunksœ, œoutput_typesœ: [œDataœ]}",
-        "target": "pgvector-mSYMJ",
-        "targetHandle": "{œfieldNameœ: œingest_dataœ, œidœ: œpgvector-mSYMJœ, œinputTypesœ: [œDataœ, œDataFrameœ], œtypeœ: œotherœ}"
+        "source": "PredictionGuardModel-8PiAY",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardModelœ,œidœ:œPredictionGuardModel-8PiAYœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-YomT6",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-YomT6œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -267,7 +152,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "PredictionGuardEmbeddings",
-            "id": "PredictionGuardEmbeddings-PQEml",
+            "id": "PredictionGuardEmbeddings-EXi5L",
             "name": "embeddings",
             "output_types": [
               "Embeddings"
@@ -275,19 +160,133 @@
           },
           "targetHandle": {
             "fieldName": "embedding",
-            "id": "pgvector-mSYMJ",
+            "id": "pgvector-DeBt5",
             "inputTypes": [
               "Embeddings"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__PredictionGuardEmbeddings-PQEml{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-PQEmlœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-mSYMJ{œfieldNameœ:œembeddingœ,œidœ:œpgvector-mSYMJœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__PredictionGuardEmbeddings-EXi5L{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-EXi5Lœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-DeBt5{œfieldNameœ:œembeddingœ,œidœ:œpgvector-DeBt5œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "PredictionGuardEmbeddings-PQEml",
-        "sourceHandle": "{œdataTypeœ: œPredictionGuardEmbeddingsœ, œidœ: œPredictionGuardEmbeddings-PQEmlœ, œnameœ: œembeddingsœ, œoutput_typesœ: [œEmbeddingsœ]}",
-        "target": "pgvector-mSYMJ",
-        "targetHandle": "{œfieldNameœ: œembeddingœ, œidœ: œpgvector-mSYMJœ, œinputTypesœ: [œEmbeddingsœ], œtypeœ: œotherœ}"
+        "source": "PredictionGuardEmbeddings-EXi5L",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-EXi5Lœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "pgvector-DeBt5",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-DeBt5œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-c9WsQ",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "search_query",
+            "id": "pgvector-GaMHw",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "query"
+          }
+        },
+        "id": "xy-edge__ChatInput-c9WsQ{œdataTypeœ:œChatInputœ,œidœ:œChatInput-c9WsQœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-pgvector-GaMHw{œfieldNameœ:œsearch_queryœ,œidœ:œpgvector-GaMHwœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}",
+        "selected": false,
+        "source": "ChatInput-c9WsQ",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-c9WsQœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "pgvector-GaMHw",
+        "targetHandle": "{œfieldNameœ:œsearch_queryœ,œidœ:œpgvector-GaMHwœ,œinputTypesœ:[œMessageœ],œtypeœ:œqueryœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PredictionGuardEmbeddings",
+            "id": "PredictionGuardEmbeddings-MTBt5",
+            "name": "embeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "embedding",
+            "id": "pgvector-GaMHw",
+            "inputTypes": [
+              "Embeddings"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__PredictionGuardEmbeddings-MTBt5{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-MTBt5œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-pgvector-GaMHw{œfieldNameœ:œembeddingœ,œidœ:œpgvector-GaMHwœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "PredictionGuardEmbeddings-MTBt5",
+        "sourceHandle": "{œdataTypeœ:œPredictionGuardEmbeddingsœ,œidœ:œPredictionGuardEmbeddings-MTBt5œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "pgvector-GaMHw",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œpgvector-GaMHwœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "pgvector",
+            "id": "pgvector-GaMHw",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_data",
+            "id": "parser-lVNrC",
+            "inputTypes": [
+              "DataFrame",
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__pgvector-GaMHw{œdataTypeœ:œpgvectorœ,œidœ:œpgvector-GaMHwœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-parser-lVNrC{œfieldNameœ:œinput_dataœ,œidœ:œparser-lVNrCœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "pgvector-GaMHw",
+        "sourceHandle": "{œdataTypeœ:œpgvectorœ,œidœ:œpgvector-GaMHwœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "parser-lVNrC",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œparser-lVNrCœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SplitText",
+            "id": "SplitText-rhE5o",
+            "name": "chunks",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "ingest_data",
+            "id": "pgvector-DeBt5",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SplitText-rhE5o{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-rhE5oœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-pgvector-DeBt5{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-DeBt5œ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SplitText-rhE5o",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-rhE5oœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}",
+        "target": "pgvector-DeBt5",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œpgvector-DeBt5œ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
@@ -295,7 +294,7 @@
         "data": {
           "description": "Get chat inputs from the Playground.",
           "display_name": "Chat Input",
-          "id": "ChatInput-v639R",
+          "id": "ChatInput-c9WsQ",
           "node": {
             "base_classes": [
               "Message"
@@ -326,6 +325,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Message",
+                "hidden": false,
                 "method": "message_response",
                 "name": "message",
                 "selected": "Message",
@@ -458,7 +458,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "What is the document is about?"
+                "value": "What are the additional considerations for sterile drug products?"
               },
               "sender": {
                 "advanced": true,
@@ -560,14 +560,14 @@
         },
         "dragging": false,
         "height": 234,
-        "id": "ChatInput-v639R",
+        "id": "ChatInput-c9WsQ",
         "measured": {
           "height": 234,
-          "width": 400
+          "width": 320
         },
         "position": {
-          "x": 579.2832772143977,
-          "y": -698.3683887053771
+          "x": 827.4877596995269,
+          "y": 421.8759496538444
         },
         "positionAbsolute": {
           "x": 743.9745420290319,
@@ -581,7 +581,7 @@
         "data": {
           "description": "Create a prompt template with dynamic variables.",
           "display_name": "Prompt",
-          "id": "Prompt-1BWE4",
+          "id": "Prompt-b7HXL",
           "node": {
             "base_classes": [
               "Message"
@@ -618,6 +618,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Prompt Message",
+                "hidden": false,
                 "method": "build_prompt",
                 "name": "prompt",
                 "selected": "Message",
@@ -740,14 +741,14 @@
         },
         "dragging": false,
         "height": 433,
-        "id": "Prompt-1BWE4",
+        "id": "Prompt-b7HXL",
         "measured": {
           "height": 433,
-          "width": 400
+          "width": 320
         },
         "position": {
-          "x": 1448.2591614106395,
-          "y": 472.1411714346183
+          "x": 1977.9097981422992,
+          "y": 640.5656416923846
         },
         "positionAbsolute": {
           "x": 1977.9097981422992,
@@ -761,7 +762,7 @@
         "data": {
           "description": "Split text into chunks based on specified criteria.",
           "display_name": "Split Text",
-          "id": "SplitText-tOxbJ",
+          "id": "SplitText-rhE5o",
           "node": {
             "base_classes": [
               "Data"
@@ -790,6 +791,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Chunks",
+                "hidden": false,
                 "method": "split_text",
                 "name": "chunks",
                 "selected": "Data",
@@ -803,6 +805,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "DataFrame",
+                "hidden": false,
                 "method": "as_dataframe",
                 "name": "dataframe",
                 "selected": "DataFrame",
@@ -926,7 +929,7 @@
                 "trace_as_input": true,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "\n"
+                "value": "."
               },
               "text_key": {
                 "_input_type": "MessageTextInput",
@@ -957,14 +960,14 @@
         },
         "dragging": false,
         "height": 475,
-        "id": "SplitText-tOxbJ",
+        "id": "SplitText-rhE5o",
         "measured": {
           "height": 475,
-          "width": 400
+          "width": 320
         },
         "position": {
-          "x": 873.4988621385719,
-          "y": 2930.990300146866
+          "x": 1750.0948146336837,
+          "y": 1359.0056517826833
         },
         "positionAbsolute": {
           "x": 1683.4543896546102,
@@ -976,7 +979,7 @@
       },
       {
         "data": {
-          "id": "note-OeZkX",
+          "id": "note-Ma8P5",
           "node": {
             "description": "## 🐕 2. Retriever Flow\n\nThis flow answers your questions with contextual data retrieved from your vector database.\n\nOpen the **Playground** and ask, \n\n```\nWhat is this document about?\n```\n",
             "display_name": "",
@@ -988,15 +991,15 @@
           "type": "note"
         },
         "dragging": false,
-        "height": 560,
-        "id": "note-OeZkX",
+        "height": 324,
+        "id": "note-Ma8P5",
         "measured": {
-          "height": 560,
-          "width": 644
+          "height": 324,
+          "width": 325
         },
         "position": {
-          "x": -351.6643636852409,
-          "y": -339.7050596688183
+          "x": 374.388314931542,
+          "y": 486.18094072679895
         },
         "positionAbsolute": {
           "x": 374.388314931542,
@@ -1009,13 +1012,13 @@
           "width": 324
         },
         "type": "noteNode",
-        "width": 638
+        "width": 324
       },
       {
         "data": {
-          "id": "note-n5NNY",
+          "id": "note-u6kj7",
           "node": {
-            "description": "## 📖 README\n\nLoad your data into a vector database with the 📚 **Load Data** flow, and then use your data as chat context with the 🐕 **Retriever** flow.\n\n**🚨 Add your PG API key as a global variable to easily add it to all of the PG components in this flow.** \n\n**Quick start**\n1. Run the 📚 **Load Data** flow.\n2. Run the 🐕 **Retriever** flow.\n\n**Next steps** \n\n- Experiment by changing the prompt and the loaded data to see how the bot's responses change. \n",
+            "description": "## 📖 README\n\nLoad your data into a vector database with the 📚 **Load Data** flow, and then use your data as chat context with the 🐕 **Retriever** flow.\n\n\n**Quick start**\n1. Run the 📚 **Load Data** flow.\n2. Run the 🐕 **Retriever** flow.\n\n**Next steps** \n\n- Experiment by changing the prompt and the loaded data to see how the bot's responses change. \n\nFor more info, see the [Langflow docs](https://docs.langflow.org/starter-projects-vector-store-rag).",
             "display_name": "Read Me",
             "documentation": "",
             "template": {
@@ -1025,15 +1028,15 @@
           "type": "note"
         },
         "dragging": false,
-        "height": 973,
-        "id": "note-n5NNY",
+        "height": 324,
+        "id": "note-u6kj7",
         "measured": {
-          "height": 973,
-          "width": 568
+          "height": 324,
+          "width": 325
         },
         "position": {
-          "x": -1014.6628261640095,
-          "y": 959.5145185707005
+          "x": 191.12162720143235,
+          "y": 1157.6038620251531
         },
         "positionAbsolute": {
           "x": 94.28986613312418,
@@ -1046,13 +1049,13 @@
           "width": 324
         },
         "type": "noteNode",
-        "width": 562
+        "width": 324
       },
       {
         "data": {
           "description": "Display a chat message in the Playground.",
           "display_name": "Chat Output",
-          "id": "ChatOutput-TDbuC",
+          "id": "ChatOutput-YomT6",
           "node": {
             "base_classes": [
               "Message"
@@ -1334,14 +1337,14 @@
         },
         "dragging": false,
         "height": 234,
-        "id": "ChatOutput-TDbuC",
+        "id": "ChatOutput-YomT6",
         "measured": {
           "height": 234,
-          "width": 400
+          "width": 320
         },
         "position": {
-          "x": 3114.241899254932,
-          "y": 835.1622780418211
+          "x": 2738.611008351098,
+          "y": 829.6219994149209
         },
         "positionAbsolute": {
           "x": 2734.385670401691,
@@ -1353,9 +1356,9 @@
       },
       {
         "data": {
-          "id": "note-nXSnq",
+          "id": "note-YfFAD",
           "node": {
-            "description": "## 📚 1. Load Data Flow\n\nRun this first! Load data from a local file and embed it into the vector database.\n\nSelect a Database and a Collection, or create new ones. \n\nClick ▶️ **Run component** on the **PGVECTOR** component to load your data.\n\n\n#### Next steps:\n Experiment by changing the prompt and the contextual data to see how the retrieval flow's responses change.\n\n\n\n**NOTE**\n\nMake sure your table name is the same for both pgvector connections! \n\n",
+            "description": "## 📚 1. Load Data Flow\n\nRun this first! Load data from a local file and embed it into the vector database.\n\nSelect a Table, or create a new one. \n\nClick ▶️ **Run component** on the **PGVector** component to load your data.\n\n* If you're using own Postgres instance, add your connection string.\n\n#### Next steps:\n Experiment by changing the prompt and the contextual data to see how the retrieval flow's responses change.",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -1365,15 +1368,15 @@
           "type": "note"
         },
         "dragging": false,
-        "height": 742,
-        "id": "note-nXSnq",
+        "height": 324,
+        "id": "note-YfFAD",
         "measured": {
-          "height": 742,
-          "width": 683
+          "height": 324,
+          "width": 325
         },
         "position": {
-          "x": 672.2903321180156,
-          "y": 1947.9866944558225
+          "x": 955.3277857006676,
+          "y": 1552.171191793604
         },
         "positionAbsolute": {
           "x": 955.3277857006676,
@@ -1386,11 +1389,11 @@
           "width": 324
         },
         "type": "noteNode",
-        "width": 677
+        "width": 324
       },
       {
         "data": {
-          "id": "File-FHDbh",
+          "id": "File-2qeDD",
           "node": {
             "base_classes": [
               "Data"
@@ -1419,6 +1422,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Data",
+                "hidden": false,
                 "method": "load_files",
                 "name": "data",
                 "required_inputs": [],
@@ -1593,9 +1597,7 @@
                   "bz2",
                   "gz"
                 ],
-                "file_path": [
-                  "4cbc23a2-1ab8-4d36-9123-e9583cc8898c/ed5d76fe-58ae-41f5-b72b-8f074ae583a1.docx"
-                ],
+                "file_path": [],
                 "info": "Supported file extensions: txt, md, mdx, csv, json, yaml, yml, xml, html, htm, pdf, docx, py, sh, sql, js, ts, tsx; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
                 "name": "path",
@@ -1665,14 +1667,14 @@
         },
         "dragging": false,
         "height": 367,
-        "id": "File-FHDbh",
+        "id": "File-2qeDD",
         "measured": {
           "height": 367,
-          "width": 400
+          "width": 320
         },
         "position": {
-          "x": -205.41834752722704,
-          "y": 2589.0068141397956
+          "x": 1314.0643184619548,
+          "y": 1508.2155181023356
         },
         "positionAbsolute": {
           "x": 1318.9043936921921,
@@ -1684,7 +1686,71 @@
       },
       {
         "data": {
-          "id": "parser-rPJPV",
+          "id": "note-jOMSb",
+          "node": {
+            "description": "### 💡 Add your PG API key here 👇",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-jOMSb",
+        "measured": {
+          "height": 324,
+          "width": 324
+        },
+        "position": {
+          "x": 1977.0394614619636,
+          "y": 1972.3193532603493
+        },
+        "positionAbsolute": {
+          "x": 1692.2322233423606,
+          "y": 1821.9077961087607
+        },
+        "selected": false,
+        "type": "noteNode",
+        "width": 324
+      },
+      {
+        "data": {
+          "id": "note-hu0Vm",
+          "node": {
+            "description": "### 💡 Add your PG API key here 👇",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-hu0Vm",
+        "measured": {
+          "height": 324,
+          "width": 324
+        },
+        "position": {
+          "x": 2367.5874820047707,
+          "y": 548.1219180035968
+        },
+        "positionAbsolute": {
+          "x": 2350.297636215281,
+          "y": 525.0687902842766
+        },
+        "selected": false,
+        "type": "noteNode",
+        "width": 324
+      },
+      {
+        "data": {
+          "id": "parser-lVNrC",
           "node": {
             "base_classes": [
               "Message"
@@ -1719,6 +1785,8 @@
                 "hidden": false,
                 "method": "parse_combined_text",
                 "name": "parsed_text",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Message",
                 "tool_mode": true,
                 "types": [
@@ -1731,6 +1799,24 @@
             "score": 2.220446049250313e-16,
             "template": {
               "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Clean Data",
+                "dynamic": false,
+                "info": "Enable to clean the data by removing empty rows and lines in each cell of the DataFrame/ Data object.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
               "code": {
                 "advanced": true,
                 "dynamic": true,
@@ -1846,271 +1932,28 @@
           "type": "parser"
         },
         "dragging": false,
-        "id": "parser-rPJPV",
+        "id": "parser-lVNrC",
         "measured": {
-          "height": 493,
-          "width": 400
+          "height": 395,
+          "width": 320
         },
         "position": {
-          "x": 2212.97386648,
-          "y": -624.8445352527253
+          "x": 1599.7474165246513,
+          "y": 453.34272402795744
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "pgvector-JYFPX",
-          "node": {
-            "base_classes": [
-              "Data",
-              "DataFrame"
-            ],
-            "beta": false,
-            "category": "vectorstores",
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "PGVector Vector Store with search capabilities",
-            "display_name": "PGVector",
-            "documentation": "",
-            "edited": false,
-            "field_order": [
-              "pg_server_url",
-              "collection_name",
-              "ingest_data",
-              "search_query",
-              "should_cache_vector_store",
-              "embedding",
-              "number_of_results"
-            ],
-            "frozen": false,
-            "icon": "cpu",
-            "key": "pgvector",
-            "legacy": false,
-            "lf_version": "1.3.4",
-            "metadata": {},
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Search Results",
-                "method": "search_documents",
-                "name": "search_results",
-                "required_inputs": [
-                  "collection_name",
-                  "embedding",
-                  "pg_server_url"
-                ],
-                "selected": "Data",
-                "tool_mode": true,
-                "types": [
-                  "Data"
-                ],
-                "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "DataFrame",
-                "method": "as_dataframe",
-                "name": "dataframe",
-                "required_inputs": [],
-                "selected": "DataFrame",
-                "tool_mode": true,
-                "types": [
-                  "DataFrame"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "score": 0.0000597035286583837,
-            "template": {
-              "_type": "Component",
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from langchain_community.vectorstores import PGVector\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.helpers.data import docs_to_data\nfrom langflow.io import HandleInput, IntInput, SecretStrInput, StrInput\nfrom langflow.schema import Data\nfrom langflow.utils.connection_string_parser import transform_connection_string\n\n\nclass PGVectorStoreComponent(LCVectorStoreComponent):\n    display_name = \"PGVector\"\n    description = \"PGVector Vector Store with search capabilities\"\n    name = \"pgvector\"\n    icon = \"cpu\"\n\n    inputs = [\n        SecretStrInput(name=\"pg_server_url\", display_name=\"PostgreSQL Server Connection String\", required=True),\n        StrInput(name=\"collection_name\", display_name=\"Table\", required=True),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"], required=True),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            value=4,\n            advanced=True,\n        ),\n    ]\n\n    @check_cached_vector_store\n    def build_vector_store(self) -> PGVector:\n        # Convert DataFrame to Data if needed using parent's method\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                documents.append(_input)\n\n        connection_string_parsed = transform_connection_string(self.pg_server_url)\n\n        if documents:\n            pgvector = PGVector.from_documents(\n                embedding=self.embedding,\n                documents=documents,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n        else:\n            pgvector = PGVector.from_existing_index(\n                embedding=self.embedding,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n\n        return pgvector\n\n    def search_documents(self) -> list[Data]:\n        vector_store = self.build_vector_store()\n\n        if self.search_query and isinstance(self.search_query, str) and self.search_query.strip():\n            docs = vector_store.similarity_search(\n                query=self.search_query,\n                k=self.number_of_results,\n            )\n\n            data = docs_to_data(docs)\n            self.status = data\n            return data\n        return []\n"
-              },
-              "collection_name": {
-                "_input_type": "StrInput",
-                "advanced": false,
-                "display_name": "Table",
-                "dynamic": false,
-                "info": "",
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "collection_name",
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "stevo"
-              },
-              "embedding": {
-                "_input_type": "HandleInput",
-                "advanced": false,
-                "display_name": "Embedding",
-                "dynamic": false,
-                "info": "",
-                "input_types": [
-                  "Embeddings"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "embedding",
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "trace_as_metadata": true,
-                "type": "other",
-                "value": ""
-              },
-              "ingest_data": {
-                "_input_type": "HandleInput",
-                "advanced": false,
-                "display_name": "Ingest Data",
-                "dynamic": false,
-                "info": "",
-                "input_types": [
-                  "Data",
-                  "DataFrame"
-                ],
-                "list": true,
-                "list_add_label": "Add More",
-                "name": "ingest_data",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "trace_as_metadata": true,
-                "type": "other",
-                "value": ""
-              },
-              "number_of_results": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Number of Results",
-                "dynamic": false,
-                "info": "Number of results to return.",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "number_of_results",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "int",
-                "value": 4
-              },
-              "pg_server_url": {
-                "_input_type": "SecretStrInput",
-                "advanced": false,
-                "display_name": "PostgreSQL Server Connection String",
-                "dynamic": false,
-                "info": "",
-                "input_types": [],
-                "load_from_db": false,
-                "name": "pg_server_url",
-                "password": true,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "str",
-                "value": "postgresql://pgdemo_owner:npg_4zWdk5EbMmsS@ep-tiny-thunder-a4di3fcq-pooler.us-east-1.aws.neon.tech/pgdemo?sslmode=require"
-              },
-              "search_query": {
-                "_input_type": "QueryInput",
-                "advanced": false,
-                "display_name": "Search Query",
-                "dynamic": false,
-                "info": "Enter a query to run a similarity search.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "search_query",
-                "placeholder": "Enter a query...",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": true,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "type": "query",
-                "value": ""
-              },
-              "should_cache_vector_store": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Cache Vector Store",
-                "dynamic": false,
-                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "should_cache_vector_store",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "bool",
-                "value": true
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "pgvector"
-        },
-        "dragging": false,
-        "id": "pgvector-JYFPX",
-        "measured": {
-          "height": 666,
-          "width": 400
-        },
-        "position": {
-          "x": 1426.948242159457,
-          "y": -854.3461470685977
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "PredictionGuardEmbeddings-3eyc2",
+          "description": "Generate embeddings using Prediction Guard hosted models.",
+          "display_name": "Prediction Guard Embeddings",
+          "id": "PredictionGuardEmbeddings-EXi5L",
           "node": {
             "base_classes": [
               "Embeddings"
             ],
             "beta": false,
-            "category": "embeddings",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Generate embeddings using Prediction Guard hosted models.",
@@ -2119,12 +1962,10 @@
             "edited": false,
             "field_order": [
               "model",
-              "input",
               "predictionguard_api_key"
             ],
             "frozen": false,
             "icon": "PredictionGuard",
-            "key": "PredictionGuardEmbeddings",
             "legacy": false,
             "lf_version": "1.3.4",
             "metadata": {},
@@ -2138,6 +1979,7 @@
                 "hidden": false,
                 "method": "build_embeddings",
                 "name": "embeddings",
+                "options": null,
                 "required_inputs": [
                   "predictionguard_api_key"
                 ],
@@ -2150,7 +1992,6 @@
               }
             ],
             "pinned": false,
-            "score": 0.01857804455091699,
             "template": {
               "_type": "Component",
               "code": {
@@ -2169,26 +2010,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from langchain_openai import OpenAIEmbeddings\n\nfrom langflow.base.embeddings.model import LCEmbeddingsModel\nfrom langflow.field_typing import Embeddings\nfrom langflow.io import DropdownInput, StrInput, SecretStrInput\n\n\nclass PredictionGuardEmbeddingsComponent(LCEmbeddingsModel):\n    display_name = \"Prediction Guard Embeddings\"\n    description = \"Generate embeddings using Prediction Guard hosted models.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model\",\n            display_name=\"Model\",\n            advanced=False,\n            options=[\"bge-m3\", \"multilingual-e5-large-instruct\"],\n            value=\"text-embedding-3-small\",\n        ),\n        StrInput(\n            name=\"input\",\n            display_name=\"Input\",\n            info=\"Input to be embedded.\",\n        ),\n        SecretStrInput(\n            name=\"predictionguard_api_key\",\n            display_name=\"PredictionGuard API Key\",\n            value=\"PREDICTIONGUARD_API_KEY\",\n            required=True\n        ),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        return OpenAIEmbeddings(\n            model=self.model,\n            openai_api_base=\"https://api.predictionguard.com\",\n            api_key=self.predictionguard_api_key or None,\n        )"
-              },
-              "input": {
-                "_input_type": "StrInput",
-                "advanced": false,
-                "display_name": "Input",
-                "dynamic": false,
-                "info": "Input to be embedded.",
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "input",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": ""
+                "value": "from langchain_predictionguard import PredictionGuardEmbeddings\nfrom langflow.base.embeddings.model import LCEmbeddingsModel\nfrom langflow.field_typing import Embeddings\nfrom langflow.io import DropdownInput, StrInput, SecretStrInput\n\n\nclass PredictionGuardEmbeddingsComponent(LCEmbeddingsModel):\n    display_name = \"Prediction Guard Embeddings\"\n    description = \"Generate embeddings using Prediction Guard hosted models.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model\",\n            display_name=\"Model\",\n            advanced=False,\n            options=[\"bge-m3\", \"bridgetower-large-itm-mlm-itc\", \"multilingual-e5-large-instruct\"],\n            value=\"bge-m3\",\n        ),\n        SecretStrInput(\n            name=\"predictionguard_api_key\",\n            display_name=\"PredictionGuard API Key\",\n            value=\"PREDICTIONGUARD_API_KEY\",\n            required=True\n        ),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        return PredictionGuardEmbeddings(\n            model=self.model,\n            predictionguard_api_key=self.predictionguard_api_key or None,\n        )"
               },
               "model": {
                 "_input_type": "DropdownInput",
@@ -2201,6 +2023,7 @@
                 "name": "model",
                 "options": [
                   "bge-m3",
+                  "bridgetower-large-itm-mlm-itc",
                   "multilingual-e5-large-instruct"
                 ],
                 "options_metadata": [],
@@ -2221,7 +2044,7 @@
                 "dynamic": false,
                 "info": "",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "predictionguard_api_key",
                 "password": true,
                 "placeholder": "",
@@ -2229,7 +2052,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": "edpgtoken"
+                "value": ""
               }
             },
             "tool_mode": false
@@ -2238,28 +2061,154 @@
           "type": "PredictionGuardEmbeddings"
         },
         "dragging": false,
-        "id": "PredictionGuardEmbeddings-3eyc2",
+        "id": "PredictionGuardEmbeddings-EXi5L",
         "measured": {
-          "height": 518,
-          "width": 400
+          "height": 332,
+          "width": 320
         },
         "position": {
-          "x": 158.22443659930963,
-          "y": 426.5662714707297
+          "x": 1974.1997866454913,
+          "y": 2032.7830169394108
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "PredictionGuardModel-qpkzm",
+          "id": "PredictionGuardEmbeddings-MTBt5",
+          "node": {
+            "base_classes": [
+              "Embeddings"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate embeddings using Prediction Guard hosted models.",
+            "display_name": "Prediction Guard Embeddings",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "model",
+              "predictionguard_api_key"
+            ],
+            "frozen": false,
+            "icon": "PredictionGuard",
+            "legacy": false,
+            "lf_version": "1.3.4",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Embeddings",
+                "hidden": false,
+                "method": "build_embeddings",
+                "name": "embeddings",
+                "options": null,
+                "required_inputs": [
+                  "predictionguard_api_key"
+                ],
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langchain_predictionguard import PredictionGuardEmbeddings\nfrom langflow.base.embeddings.model import LCEmbeddingsModel\nfrom langflow.field_typing import Embeddings\nfrom langflow.io import DropdownInput, StrInput, SecretStrInput\n\n\nclass PredictionGuardEmbeddingsComponent(LCEmbeddingsModel):\n    display_name = \"Prediction Guard Embeddings\"\n    description = \"Generate embeddings using Prediction Guard hosted models.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model\",\n            display_name=\"Model\",\n            advanced=False,\n            options=[\"bge-m3\", \"bridgetower-large-itm-mlm-itc\", \"multilingual-e5-large-instruct\"],\n            value=\"bge-m3\",\n        ),\n        SecretStrInput(\n            name=\"predictionguard_api_key\",\n            display_name=\"PredictionGuard API Key\",\n            value=\"PREDICTIONGUARD_API_KEY\",\n            required=True\n        ),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        return PredictionGuardEmbeddings(\n            model=self.model,\n            predictionguard_api_key=self.predictionguard_api_key or None,\n        )"
+              },
+              "model": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model",
+                "dynamic": false,
+                "info": "",
+                "name": "model",
+                "options": [
+                  "bge-m3",
+                  "bridgetower-large-itm-mlm-itc",
+                  "multilingual-e5-large-instruct"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "bge-m3"
+              },
+              "predictionguard_api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "PredictionGuard API Key",
+                "dynamic": false,
+                "info": "",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "predictionguard_api_key",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "PredictionGuardEmbeddings"
+        },
+        "dragging": false,
+        "id": "PredictionGuardEmbeddings-MTBt5",
+        "measured": {
+          "height": 332,
+          "width": 320
+        },
+        "position": {
+          "x": 832.9026115837971,
+          "y": 711.1118000310211
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "PredictionGuardModel-8PiAY",
           "node": {
             "base_classes": [
               "LanguageModel",
               "Message"
             ],
             "beta": false,
-            "category": "models",
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Generates text using Prediction Guard LLMs.",
@@ -2282,7 +2231,6 @@
             ],
             "frozen": false,
             "icon": "PredictionGuard",
-            "key": "PredictionGuardModel",
             "legacy": false,
             "lf_version": "1.3.4",
             "metadata": {},
@@ -2296,6 +2244,7 @@
                 "hidden": false,
                 "method": "text_response",
                 "name": "text_output",
+                "options": null,
                 "required_inputs": [],
                 "selected": "Message",
                 "tool_mode": true,
@@ -2310,6 +2259,7 @@
                 "display_name": "Language Model",
                 "method": "build_model",
                 "name": "model_output",
+                "options": null,
                 "required_inputs": [
                   "api_key",
                   "model_name"
@@ -2323,7 +2273,6 @@
               }
             ],
             "pinned": false,
-            "score": 0.007568328950209746,
             "template": {
               "_type": "Component",
               "api_key": {
@@ -2333,7 +2282,7 @@
                 "dynamic": false,
                 "info": "The Prediction Guard API Key to use.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "password": true,
                 "placeholder": "",
@@ -2341,7 +2290,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": "edpgtoken"
+                "value": ""
               },
               "code": {
                 "advanced": true,
@@ -2595,21 +2544,21 @@
           "type": "PredictionGuardModel"
         },
         "dragging": false,
-        "id": "PredictionGuardModel-qpkzm",
+        "id": "PredictionGuardModel-8PiAY",
         "measured": {
-          "height": 769,
-          "width": 400
+          "height": 614,
+          "width": 320
         },
         "position": {
-          "x": 2328.7670829724466,
-          "y": 544.020178361014
+          "x": 2388.2605539181063,
+          "y": 611.1343759777794
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "pgvector-mSYMJ",
+          "id": "pgvector-DeBt5",
           "node": {
             "base_classes": [
               "Data",
@@ -2645,6 +2594,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Search Results",
+                "hidden": false,
                 "method": "search_documents",
                 "name": "search_results",
                 "required_inputs": [
@@ -2713,7 +2663,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "stevo"
+                "value": "fda_new"
               },
               "embedding": {
                 "_input_type": "HandleInput",
@@ -2789,7 +2739,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": "postgresql://pgdemo_owner:npg_4zWdk5EbMmsS@ep-tiny-thunder-a4di3fcq-pooler.us-east-1.aws.neon.tech/pgdemo?sslmode=require"
+                "value": ""
               },
               "search_query": {
                 "_input_type": "QueryInput",
@@ -2839,41 +2789,46 @@
           "type": "pgvector"
         },
         "dragging": false,
-        "id": "pgvector-mSYMJ",
+        "id": "pgvector-DeBt5",
         "measured": {
-          "height": 666,
-          "width": 400
+          "height": 532,
+          "width": 320
         },
         "position": {
-          "x": 2733.351139403682,
-          "y": 2677.016070629898
+          "x": 2487.779852748709,
+          "y": 1570.3510337911207
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "PredictionGuardEmbeddings-PQEml",
+          "id": "pgvector-GaMHw",
           "node": {
             "base_classes": [
-              "Embeddings"
+              "Data",
+              "DataFrame"
             ],
             "beta": false,
-            "category": "embeddings",
+            "category": "vectorstores",
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "Generate embeddings using Prediction Guard hosted models.",
-            "display_name": "Prediction Guard Embeddings",
+            "description": "PGVector Vector Store with search capabilities",
+            "display_name": "PGVector",
             "documentation": "",
             "edited": false,
             "field_order": [
-              "model",
-              "input",
-              "predictionguard_api_key"
+              "pg_server_url",
+              "collection_name",
+              "ingest_data",
+              "search_query",
+              "should_cache_vector_store",
+              "embedding",
+              "number_of_results"
             ],
             "frozen": false,
-            "icon": "PredictionGuard",
-            "key": "PredictionGuardEmbeddings",
+            "icon": "cpu",
+            "key": "pgvector",
             "legacy": false,
             "lf_version": "1.3.4",
             "metadata": {},
@@ -2883,23 +2838,40 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "Embeddings",
+                "display_name": "Search Results",
                 "hidden": false,
-                "method": "build_embeddings",
-                "name": "embeddings",
+                "method": "search_documents",
+                "name": "search_results",
                 "required_inputs": [
-                  "predictionguard_api_key"
+                  "collection_name",
+                  "embedding",
+                  "pg_server_url"
                 ],
-                "selected": "Embeddings",
+                "selected": "Data",
                 "tool_mode": true,
                 "types": [
-                  "Embeddings"
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "hidden": false,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "required_inputs": [],
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
                 ],
                 "value": "__UNDEFINED__"
               }
             ],
             "pinned": false,
-            "score": 0.01857804455091699,
+            "score": 0.0000597035286583837,
             "template": {
               "_type": "Component",
               "code": {
@@ -2918,164 +2890,180 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from langchain_openai import OpenAIEmbeddings\n\nfrom langflow.base.embeddings.model import LCEmbeddingsModel\nfrom langflow.field_typing import Embeddings\nfrom langflow.io import DropdownInput, StrInput, SecretStrInput\n\n\nclass PredictionGuardEmbeddingsComponent(LCEmbeddingsModel):\n    display_name = \"Prediction Guard Embeddings\"\n    description = \"Generate embeddings using Prediction Guard hosted models.\"\n    icon = \"PredictionGuard\"\n    name = \"PredictionGuardEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model\",\n            display_name=\"Model\",\n            advanced=False,\n            options=[\"bge-m3\", \"multilingual-e5-large-instruct\"],\n            value=\"text-embedding-3-small\",\n        ),\n        StrInput(\n            name=\"input\",\n            display_name=\"Input\",\n            info=\"Input to be embedded.\",\n        ),\n        SecretStrInput(\n            name=\"predictionguard_api_key\",\n            display_name=\"PredictionGuard API Key\",\n            value=\"PREDICTIONGUARD_API_KEY\",\n            required=True\n        ),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        return OpenAIEmbeddings(\n            model=self.model,\n            openai_api_base=\"https://api.predictionguard.com\",\n            api_key=self.predictionguard_api_key or None,\n        )"
+                "value": "from langchain_community.vectorstores import PGVector\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.helpers.data import docs_to_data\nfrom langflow.io import HandleInput, IntInput, SecretStrInput, StrInput\nfrom langflow.schema import Data\nfrom langflow.utils.connection_string_parser import transform_connection_string\n\n\nclass PGVectorStoreComponent(LCVectorStoreComponent):\n    display_name = \"PGVector\"\n    description = \"PGVector Vector Store with search capabilities\"\n    name = \"pgvector\"\n    icon = \"cpu\"\n\n    inputs = [\n        SecretStrInput(name=\"pg_server_url\", display_name=\"PostgreSQL Server Connection String\", required=True),\n        StrInput(name=\"collection_name\", display_name=\"Table\", required=True),\n        *LCVectorStoreComponent.inputs,\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"], required=True),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            value=4,\n            advanced=True,\n        ),\n    ]\n\n    @check_cached_vector_store\n    def build_vector_store(self) -> PGVector:\n        # Convert DataFrame to Data if needed using parent's method\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                documents.append(_input)\n\n        connection_string_parsed = transform_connection_string(self.pg_server_url)\n\n        if documents:\n            pgvector = PGVector.from_documents(\n                embedding=self.embedding,\n                documents=documents,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n        else:\n            pgvector = PGVector.from_existing_index(\n                embedding=self.embedding,\n                collection_name=self.collection_name,\n                connection_string=connection_string_parsed,\n            )\n\n        return pgvector\n\n    def search_documents(self) -> list[Data]:\n        vector_store = self.build_vector_store()\n\n        if self.search_query and isinstance(self.search_query, str) and self.search_query.strip():\n            docs = vector_store.similarity_search(\n                query=self.search_query,\n                k=self.number_of_results,\n            )\n\n            data = docs_to_data(docs)\n            self.status = data\n            return data\n        return []\n"
               },
-              "input": {
+              "collection_name": {
                 "_input_type": "StrInput",
                 "advanced": false,
-                "display_name": "Input",
+                "display_name": "Table",
                 "dynamic": false,
-                "info": "Input to be embedded.",
+                "info": "",
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
-                "name": "input",
+                "name": "collection_name",
                 "placeholder": "",
-                "required": false,
+                "required": true,
                 "show": true,
                 "title_case": false,
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "fda_new"
               },
-              "model": {
-                "_input_type": "DropdownInput",
+              "embedding": {
+                "_input_type": "HandleInput",
                 "advanced": false,
-                "combobox": false,
-                "dialog_inputs": {},
-                "display_name": "Model",
+                "display_name": "Embedding",
                 "dynamic": false,
                 "info": "",
-                "name": "model",
-                "options": [
-                  "bge-m3",
-                  "multilingual-e5-large-instruct"
+                "input_types": [
+                  "Embeddings"
                 ],
-                "options_metadata": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "embedding",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "ingest_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Ingest Data",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "ingest_data",
                 "placeholder": "",
                 "required": false,
                 "show": true,
                 "title_case": false,
-                "toggle": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "number_of_results": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Number of Results",
+                "dynamic": false,
+                "info": "Number of results to return.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "number_of_results",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
                 "tool_mode": false,
                 "trace_as_metadata": true,
-                "type": "str",
-                "value": "bge-m3"
+                "type": "int",
+                "value": 3
               },
-              "predictionguard_api_key": {
+              "pg_server_url": {
                 "_input_type": "SecretStrInput",
                 "advanced": false,
-                "display_name": "PredictionGuard API Key",
+                "display_name": "PostgreSQL Server Connection String",
                 "dynamic": false,
                 "info": "",
                 "input_types": [],
-                "load_from_db": true,
-                "name": "predictionguard_api_key",
+                "load_from_db": false,
+                "name": "pg_server_url",
                 "password": true,
                 "placeholder": "",
                 "required": true,
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": "edpgtoken"
+                "value": ""
+              },
+              "search_query": {
+                "_input_type": "QueryInput",
+                "advanced": false,
+                "display_name": "Search Query",
+                "dynamic": false,
+                "info": "Enter a query to run a similarity search.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "search_query",
+                "placeholder": "Enter a query...",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "query",
+                "value": ""
+              },
+              "should_cache_vector_store": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Cache Vector Store",
+                "dynamic": false,
+                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_cache_vector_store",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
               }
             },
             "tool_mode": false
           },
           "showNode": true,
-          "type": "PredictionGuardEmbeddings"
+          "type": "pgvector"
         },
         "dragging": false,
-        "id": "PredictionGuardEmbeddings-PQEml",
+        "id": "pgvector-GaMHw",
         "measured": {
-          "height": 518,
-          "width": 400
+          "height": 614,
+          "width": 320
         },
         "position": {
-          "x": 1582.3942770161768,
-          "y": 2511.8818787762034
+          "x": 1201.7356357602907,
+          "y": 515.9749296396903
         },
         "selected": false,
         "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "note-zVu5A",
-          "node": {
-            "description": "Please provide a table name. Please make sure it matches the PGvector that is at the bottom section as well.",
-            "display_name": "",
-            "documentation": "",
-            "template": {
-              "backgroundColor": "neutral"
-            }
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "id": "note-zVu5A",
-        "measured": {
-          "height": 324,
-          "width": 330
-        },
-        "position": {
-          "x": 1404.0617631029172,
-          "y": -1222.5255774056097
-        },
-        "selected": false,
-        "type": "noteNode"
-      },
-      {
-        "data": {
-          "id": "note-mF57G",
-          "node": {
-            "description": "Please provide a table name. Please make sure it matches the PGvector that is at the top section as well. When you are ready load the data on the file component and press the play button below ↓ This will load the data into the database. You can then proceed to the playground to ask a question. ",
-            "display_name": "",
-            "documentation": "",
-            "template": {
-              "backgroundColor": "neutral"
-            }
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "id": "note-mF57G",
-        "measured": {
-          "height": 324,
-          "width": 330
-        },
-        "position": {
-          "x": 2779.7653552531533,
-          "y": 2293.5295257439393
-        },
-        "selected": false,
-        "type": "noteNode"
       }
     ],
     "viewport": {
-      "x": 892.7344178292592,
-      "y": 412.5373350743086,
-      "zoom": 0.2834601921456032
+      "x": -471.3227669562941,
+      "y": -657.8272709677303,
+      "zoom": 0.7746514538224495
     }
   },
-  "description": "Load your data for chat context with Retrieval Augmented Generation using Prediction Guard.",
+  "description": "Load your data for chat context with Retrieval Augmented Generation.",
   "endpoint_name": null,
-  "folder_id": "2e744787-2fe4-4310-aa0e-987dc41a7ad1",
-  "fs_path": null,
-  "gradient": null,
-  "icon": null,
-  "icon_bg_color": null,
-  "id": "69d30ac2-6dc4-42e5-b2c7-7607d203cba8",
+  "id": "2478c720-e009-421d-9a6b-8b91ae2f2627",
   "is_component": false,
-  "locked": false,
-  "name": "Vector Store RAG - PG",
+  "last_tested_version": "1.3.4",
+  "name": "Vector Store RAG",
   "tags": [
     "openai",
     "astradb",
     "rag",
     "q-a"
-  ],
-  "updated_at": "2025-04-25T17:17:04+00:00",
-  "user_id": "4cbc23a2-1ab8-4d36-9123-e9583cc8898c",
-  "webhook": false
+  ]
 }
