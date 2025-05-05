@@ -4447,15 +4447,15 @@ wheels = [
 
 [[package]]
 name = "langchain-predictionguard"
-version = "0.2.0"
+version = "0.2.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "langchain-core" },
     { name = "predictionguard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b7/5f/75005c76e88f44cfefaadaeded8e5dfee211b97891a715f313890cd94a22/langchain_predictionguard-0.2.0.tar.gz", hash = "sha256:486418f594523203a394d9f99df5c67fba7e402eb6ef6731f3784a8074ca7b5f", size = 8143, upload_time = "2025-04-21T18:06:32.29Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/22/44/3b819c0d9a087c69d2075e3d6e22f389b6cd0027cc9fcc459a7ce5c2e533/langchain_predictionguard-0.2.2.tar.gz", hash = "sha256:1b27130b009d2371844537153f8400a53e40438ba868b91ac095df8a5323a457", size = 8351, upload_time = "2025-05-05T15:24:48.842Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2a/f1/44c3a69045b2873a9e0031915172bd8c6dc3a17b8c032b76a5d5416565b0/langchain_predictionguard-0.2.0-py3-none-any.whl", hash = "sha256:e1a498153eaf050cbf487fcbf1fb9624dc2e5e92ba97943589734cafdb1b3d05", size = 11381, upload_time = "2025-04-21T18:06:31.464Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/c9/3a2c531a56d9cd6bc9f4d14d233ad50857414505e52b241f78ce600c2d81/langchain_predictionguard-0.2.2-py3-none-any.whl", hash = "sha256:4c5d36e7e86b81561970fbeab4e5070412fea823a773f3e522e21f2d964f45d4", size = 11577, upload_time = "2025-05-05T15:24:47.556Z" },
 ]
 
 [[package]]
