@@ -3059,7 +3059,7 @@
   "id": "2478c720-e009-421d-9a6b-8b91ae2f2627",
   "is_component": false,
   "last_tested_version": "1.3.4",
-  "name": "Vector Store RAG",
+  "name": "Vector Store RAG - PG",
   "tags": [
     "openai",
     "astradb",
