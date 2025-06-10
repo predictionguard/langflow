@@ -589,7 +589,7 @@ export function FormatColumns(columns: ColumnField[]): ColDef<any>[] {
       ) {
         if (col.options && col.formatter === FormatterType.text) {
           newCol.cellEditor = TableDropdownCellEditor;
-          newCol.cellEditorPopup = false;
+          newCol.cellEditorPopup = true;
           newCol.cellEditorParams = {
             values: col.options,
           };
@@ -884,3 +884,21 @@ export const formatNumber = (num: number | undefined): string => {
   }
   return num?.toString();
 };
+
+export function getOS() {
+  const platform = (
+    window.navigator?.userAgentData?.platform || window.navigator.platform
+  ).toLowerCase();
+
+  let os: string | null = null;
+
+  if (platform.includes("mac") || platform.includes("darwin")) {
+    os = "macos";
+  } else if (platform.includes("win")) {
+    os = "windows";
+  } else if (platform.includes("linux")) {
+    os = "linux";
+  }
+
+  return os;
+}

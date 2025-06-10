@@ -388,3 +388,31 @@ body {
   );
 }
 
+/* Component details styling */
+.markdown details {
+  width: 100%;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  margin-bottom: 1rem;
+}
+
+.markdown details summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  list-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.markdown details summary:focus-visible {
+  outline: 2px solid var(--ifm-color-primary, #a855f7);
+  outline-offset: 2px;
+}
+
+.markdown details [class^="collapsibleContent"] {
+  border-top: none !important;
+  padding: 0;
+}
+
