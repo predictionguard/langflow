@@ -7,27 +7,28 @@ module.exports = {
       items: [
         "Get-Started/get-started-installation",
         "Get-Started/get-started-quickstart",
+        {
+          type: "category",
+          label: "Tutorials",
+          items: [
+            "Tutorials/chat-with-files",
+          ],
+        },
       ],
     },
     {
       type: "category",
-      label: "Starter projects",
+      label: "Templates",
       items: [
-        'Starter-Projects/starter-projects-basic-prompting',
-        'Starter-Projects/starter-projects-vector-store-rag',
-        'Starter-Projects/starter-projects-simple-agent',
-      ],
-    },
-    {
-      type: "category",
-      label: "Sample flows",
-      items: [
-        'Sample-Flows/blog-writer',
-        'Sample-Flows/document-qa',
-        'Sample-Flows/memory-chatbot',
-        'Sample-Flows/financial-report-parser',
-        'Sample-Flows/sequential-agent',
-        'Sample-Flows/travel-planning-agent',
+        'Templates/basic-prompting',
+        'Templates/simple-agent',
+        'Templates/blog-writer',
+        'Templates/document-qa',
+        'Templates/memory-chatbot',
+        'Templates/vector-store-rag',
+        'Templates/financial-report-parser',
+        'Templates/sequential-agent',
+        'Templates/travel-planning-agent',
       ],
     },
     {
@@ -36,12 +37,10 @@ module.exports = {
       items: [
         "Concepts/concepts-overview",
         "Concepts/concepts-playground",
-        "Concepts/concepts-components",
         "Concepts/concepts-flows",
         "Concepts/concepts-objects",
         "Concepts/concepts-publish",
         "Concepts/embedded-chat-widget",
-        "Concepts/mcp-server",
         "Concepts/concepts-file-management",
         "Concepts/concepts-voice-mode",
       ],
@@ -50,6 +49,7 @@ module.exports = {
       type: "category",
       label: "Components",
       items: [
+        "Concepts/concepts-components",
         "Components/components-agents",
         "Components/components-bundles",
         "Components/components-custom-components",
@@ -70,8 +70,16 @@ module.exports = {
       type: "category",
       label: "Agents",
       items: [
-        "Agents/agents-overview",
-        "Agents/agent-tool-calling-agent-component",
+        "Agents/agents",
+        "Agents/agents-tools",
+      ],
+    },
+    {
+      type: "category",
+      label: "Model Context Protocol (MCP)",
+      items: [
+        "Concepts/mcp-server",
+        "Components/mcp-client",
       ],
     },
     {
@@ -84,6 +92,7 @@ module.exports = {
         "Configuration/configuration-custom-database",
         "Configuration/configuration-global-variables",
         "Configuration/environment-variables",
+        "Contributing/contributing-telemetry",
       ],
     },
     {
@@ -154,6 +163,11 @@ module.exports = {
         },
         {
           type: "doc",
+          id: "Deployment/deployment-public-server",
+          label: "Deploy a public Langflow server"
+        },
+        {
+          type: "doc",
           id: "Deployment/deployment-caddyfile",
           label: "Deploy Langflow on a remote server"
         },
@@ -205,14 +219,54 @@ module.exports = {
       label: "API reference",
       items: [
         {
-          type: "link",
-          label: "API documentation",
-          href: "/api",
+          type: "doc",
+          id: "API-Reference/api-reference-api-examples",
+          label: "Get started with the Langflow API",
         },
         {
           type: "doc",
-          id: "API-Reference/api-reference-api-examples",
-          label: "API examples",
+          id: "API-Reference/api-flows-run",
+          label: "Flow trigger endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-flows",
+          label: "Flow management endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-files",
+          label: "Files endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-projects",
+          label: "Projects endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-logs",
+          label: "Logs endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-monitor",
+          label: "Monitor endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-build",
+          label: "Build endpoints",
+        },
+        {
+          type: "doc",
+          id: "API-Reference/api-users",
+          label: "Users endpoints",
+        },
+        {
+          type: "link",
+          label: "Langflow API specification",
+          href: "/api",
         },
       ],
     },
@@ -238,13 +292,18 @@ module.exports = {
         },
         {
           type: "doc",
+          id: "Integrations/Cleanlab/integrations-cleanlab",
+          label: "Cleanlab",
+        },
+        {
+          type: "doc",
           id: "Integrations/Composio/integrations-composio",
           label: "Composio",
         },
         {
           type: "doc",
-          id: "Integrations/Cleanlab/integrations-cleanlab",
-          label: "Cleanlab",
+          id: "Integrations/Docling/integrations-docling",
+          label: "Docling",
         },
         {
           type: 'category',
@@ -293,7 +352,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Contributing",
+      label: "Contribute",
       items: [
         "Contributing/contributing-community",
         "Contributing/contributing-how-to-contribute",
@@ -301,19 +360,16 @@ module.exports = {
         "Contributing/contributing-component-tests",
         "Contributing/contributing-templates",
         "Contributing/contributing-bundles",
-        "Contributing/contributing-github-discussion-board",
-        "Contributing/contributing-github-issues",
-        "Contributing/contributing-telemetry",
       ],
     },
     {
       type: "category",
-      label: "Changelog",
+      label: "Release notes",
       items: [
         {
-          type: "link",
-          label: "Changelog",
-          href: "https://github.com/langflow-ai/langflow/releases/latest",
+          type: "doc",
+          id: "Support/release-notes",
+          label: "Release notes",
         },
       ],
     },
@@ -323,8 +379,18 @@ module.exports = {
       items: [
         {
           type: "doc",
+          id: "Support/troubleshooting",
+          label: "Troubleshoot",
+        },
+        {
+          type: "doc",
+          id: "Contributing/contributing-github-issues",
+          label: "Get help and request enhancements",
+        },
+        {
+          type: "doc",
           id: "Support/luna-for-langflow",
-          label: "Luna for Langflow",
+          label: "Enterprise support",
         },
       ],
     },
