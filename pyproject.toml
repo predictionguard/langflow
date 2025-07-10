@@ -126,8 +126,8 @@ dependencies = [
     "docling_core>=2.36.1",
     "filelock>=3.18.0",
     "jigsawstack==0.2.7",
-    "predictionguard>=2.8.3",
     "langchain-predictionguard>=0.3.0",
+    "predictionguard>=2.8.3",
 ]
 
 [dependency-groups]
