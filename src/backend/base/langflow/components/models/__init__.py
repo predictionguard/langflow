@@ -17,6 +17,7 @@ from .ollama import ChatOllamaComponent
 from .openai_chat_model import OpenAIModelComponent
 from .openrouter import OpenRouterComponent
 from .perplexity import PerplexityComponent
+from .predictionguard import PredictionGuardComponent
 from .sambanova import SambaNovaComponent
 from .vertexai import ChatVertexAIComponent
 from .watsonx import WatsonxAIComponent
@@ -42,6 +43,7 @@ __all__ = [
     "OpenAIModelComponent",
     "OpenRouterComponent",
     "PerplexityComponent",
+    "PredictionGuardComponent",
     "QianfanChatEndpointComponent",
     "SambaNovaComponent",
     "WatsonxAIComponent",
