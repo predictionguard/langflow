@@ -1,6 +1,7 @@
 from predictionguard import PredictionGuard
-from langflow.field_typing.range_spec import RangeSpec
+
 from langflow.base.io.text import TextComponent
+from langflow.field_typing.range_spec import RangeSpec
 from langflow.io import FloatInput, MultilineInput, Output, SecretStrInput
 from langflow.schema.message import Message
 

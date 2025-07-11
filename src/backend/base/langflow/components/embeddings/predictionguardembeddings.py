@@ -1,7 +1,8 @@
 from langchain_predictionguard import PredictionGuardEmbeddings
+
 from langflow.base.embeddings.model import LCEmbeddingsModel
 from langflow.field_typing import Embeddings
-from langflow.io import DropdownInput, StrInput, SecretStrInput
+from langflow.io import DropdownInput, SecretStrInput
 
 
 class PredictionGuardEmbeddingsComponent(LCEmbeddingsModel):

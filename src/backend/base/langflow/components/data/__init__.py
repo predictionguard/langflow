@@ -3,7 +3,7 @@ from .csv_to_data import CSVToDataComponent
 from .directory import DirectoryComponent
 from .file import FileComponent
 from .json_to_data import JSONToDataComponent
-from .PredictionGuardFile import PredictionGuardFileComponent
+from .predictionguardfile import PredictionGuardFileComponent
 from .sql_executor import SQLExecutorComponent
 from .url import URLComponent
 from .webhook import WebhookComponent

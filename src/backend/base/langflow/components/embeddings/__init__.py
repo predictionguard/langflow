@@ -6,14 +6,14 @@ from .cohere import CohereEmbeddingsComponent
 from .embedding_model import EmbeddingModelComponent
 from .google_generative_ai import GoogleGenerativeAIEmbeddingsComponent
 from .huggingface_inference_api import HuggingFaceInferenceAPIEmbeddingsComponent
-from .ImageEmbedder import ImageEmbedderComponent
+from .imageembedder import ImageEmbedderComponent
 from .lmstudioembeddings import LMStudioEmbeddingsComponent
 from .mistral import MistralAIEmbeddingsComponent
-from .MultiModalEmbedder import MultiModalEmbedderComponent
+from .multimodalembedder import MultiModalEmbedderComponent
 from .nvidia import NVIDIAEmbeddingsComponent
 from .ollama import OllamaEmbeddingsComponent
 from .openai import OpenAIEmbeddingsComponent
-from .PredictionGuardEmbeddings import PredictionGuardEmbeddingsComponent
+from .predictionguardembeddings import PredictionGuardEmbeddingsComponent
 from .similarity import EmbeddingSimilarityComponent
 from .text_embedder import TextEmbedderComponent
 from .vertexai import VertexAIEmbeddingsComponent

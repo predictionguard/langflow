@@ -2,7 +2,6 @@ from langchain_openai import ChatOpenAI
 from pydantic.v1 import SecretStr
 
 from langflow.base.models.model import LCModelComponent
-from langflow.base.models.openai_constants import OPENAI_MODEL_NAMES
 from langflow.field_typing import LanguageModel
 from langflow.field_typing.range_spec import RangeSpec
 from langflow.inputs import (

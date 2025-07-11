@@ -1,4 +1,5 @@
 from predictionguard import PredictionGuard
+
 from langflow.base.io.text import TextComponent
 from langflow.io import BoolInput, MultilineInput, Output, SecretStrInput, StrInput
 from langflow.schema.message import Message
@@ -31,7 +32,9 @@ class PredictionGuardPIIComponent(TextComponent):
         StrInput(
             name="replace_method",
             display_name="PII Replace Method",
-            info="What method to replace present PII with. Possible values are 'category', 'fake', 'mask', and 'random'."
+            info="""
+            What method to replace present PII with. Possible values are 'category', 'fake', 'mask', and 'random'.
+            """
         ),
     ]
     outputs = [
@@ -53,9 +56,9 @@ class PredictionGuardPIIComponent(TextComponent):
             replace=replace,
             replace_method=replace_method,
         )
-        if "new_prompt" in res["checks"][0].keys():
+        if "new_prompt" in res["checks"][0]:
             checked_text = res["checks"][0]["new_prompt"]
-        elif "types_and_positions" in res["checks"][0].keys():
+        elif "types_and_positions" in res["checks"][0]:
             checked_text = res["checks"][0]["types_and_positions"]
 
         return Message(

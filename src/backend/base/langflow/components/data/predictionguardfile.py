@@ -1,12 +1,12 @@
+import yaml
 from defusedxml import ElementTree
-from langflow.inputs import StrInput
-
 from predictionguard import PredictionGuard
+
 from langflow.base.data import BaseFileComponent
 from langflow.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, read_text_file
+from langflow.inputs import StrInput
 from langflow.io import BoolInput, IntInput, SecretStrInput
 from langflow.schema import Data
-import yaml
 
 
 class PredictionGuardFileComponent(BaseFileComponent):

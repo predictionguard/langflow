@@ -1,6 +1,6 @@
 from .chat import ChatOutput
-from .PredictionGuardFactuality import PredictionGuardFactualityComponent
-from .PredictionGuardToxicity import PredictionGuardToxicityComponent
+from .predictionguardfactuality import PredictionGuardFactualityComponent
+from .predictionguardtoxicity import PredictionGuardToxicityComponent
 from .text import TextOutputComponent
 
 __all__ = [

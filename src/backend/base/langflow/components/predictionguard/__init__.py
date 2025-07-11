@@ -1,4 +1,4 @@
-from .PredictionGuardRerank import PredictionGuardRerankComponent
+from .predictionguardrerank import PredictionGuardRerankComponent
 
 __all__ = [
     "PredictionGuardRerankComponent",

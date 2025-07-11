@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 
 from langflow.base.data.utils import IMG_FILE_TYPES
 from langflow.custom import Component
-from langflow.io import FileInput, HandleInput, MessageInput, Output
+from langflow.io import FileInput, HandleInput, Output
 from langflow.schema import Data
 
 if TYPE_CHECKING:

@@ -8,8 +8,8 @@ from langflow.schema import Data
 
 if TYPE_CHECKING:
     from langflow.field_typing import Embeddings
-    from langflow.schema.message import Message
     from langflow.schema.image import Image
+    from langflow.schema.message import Message
 
 
 class MultiModalEmbedderComponent(Component):
